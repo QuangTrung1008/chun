@@ -374,4 +374,10 @@ Tối ưu hóa truy vấn
 5. Xử lý các tệp trước khi tính toán một phép kết nối (hay tương đương với nó là phép tích Đề-các đi theo sau một phép chọn)
 6. Ước lượng chi phí và lựa chọn thứ tự thực hiện thích hợp
 
+Theta join
+Ký hiệu: R "⋈" _"θ"  S
+Là một trường hợp đặc biệt của Theta Join khi điều kiện là dấu bằng
+	 θ là phép so sánh bằng (=)
+Vẫn giữ cả hai thuộc tính tham gia kết nối 
+			 R ⋈_{R.A = S.B} S
 
