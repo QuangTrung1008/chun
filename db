@@ -366,5 +366,12 @@ GRANT <d/s các thao tác> ON <đối tượng> TO <d/s người sử dụng> [W
 Hủy bỏ quyền truy nhập
 REVOKE <d/s các thao tác> ON <đối tượng> FROM <d/s người sử dụng>
 
+Tối ưu hóa truy vấn
+1. Thực hiện các phép chọn và phép chiếu sớm nhất
+2. Tổ hợp các phép chọn xác định với tích Đề-các thành phép kết nối
+3. Tổ hợp dãy các phép toán mộ ngôi như các phép chọn và phép chiếu
+4. Xác định các biểu thức con chung trong một biểu thức
+5. Xử lý các tệp trước khi tính toán một phép kết nối (hay tương đương với nó là phép tích Đề-các đi theo sau một phép chọn)
+6. Ước lượng chi phí và lựa chọn thứ tự thực hiện thích hợp
 
 
