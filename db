@@ -1,0 +1,293 @@
+CHƯƠNG I: TỔNG QUAN VỀ CƠ SỞ DỮ LIỆU
+
+
+1.	Đặc điểm của CSDL
+-	Tính tự mô tả
+-	Tính độc lập
+-	Tính trừu tượng
+-	Tính nhất quán
+2.	Người sử dụng CSDL
+-	Quản trị viên
++ Định nghĩa CSDL và các ràng buộc toàn vẹn
+        + Xác định cấu trúc lưu trữ và phương pháp truy nhập
+        + Phân quyền truy nhập CSDL
+-	Thiết kế viên
++ Chịu trách nhiệm về
+o	Lựa chọn cấu trúc phù hợp để lưu trữ dữ liệu
+o	Quyết định những dữ liệu nào cần được lưu trữ
++ Liên hệ với người dùng để nắm bắt được những yêu cầu và đưa ra một thiết kế CSDL thỏa yêu cầu này
++ Có thể là 1 nhóm các DBA quản lý các CSDL sau khi việc thiết kế hoàn tất
+-	Người dùng cuối
++ Người ít sử dụng
+o	Ít khi truy cập CSDL, nhưng cần những thông tin khác nhau trong mỗi lần truy cập và dùng những câu truy vấn phức tạp
+o	Người quản lý 
++ Người sử dụng thường xuyên
+o	Thường xuyên truy vấn và cập nhật CSDL nhờ vào một số các chức năng đã được xây dựng sẳn
+o	Nhân viên
++ Người sử dụng đặc biệt
+o	Thông thạo về HQT CSDL, tự xây dựng những truy vấn phức tạp cho công việc
+o	Kỹ sư, nhà khoa học, người phân tích,…
+3.	Các khái niệm
+-	Hệ quản trị cơ sở dữ liệu (VD: MS SQL Server, mySQL, DB2, MS Access, Oracle,...)
+-	Hệ cơ sở dữ liệu: gồm 4 thành phần Hệ quản trị CSDL, Phần cứng, CSDL và phần mềm ứng dụng, Người sử dụng, Hệ CSDL tập trung (Hệ CSDL cá nhân, Hệ CSDL trung tâm, Hệ CSDL khách/chủ) , Hệ CSDL phân tán (thuần nhất và không thuần nhất)
+-	Hệ CSDL cá nhân: Tạo lập và sử dụng bởi một cá nhân đơn lẻ, Dùng trong các tổ chức nhỏ, Việc phát triển và sử dụng CSDL đơn giản, Khó chia sẻ dữ liệu
+-	Hệ CSDL trung tâm: DL và các ứng dụng được lưu trữ vào một máy tính trung tâm, Các máy trạm có thể truy nhập từ xa vào DL và các ứng dụng này, Dùng trong các phòng chức năng: hệ thống mua vé máy bay, hệ thống đăng ký tín chỉ, hệ thống kế toán,...
+-	Hệ CSDL khách chủ: Cá máy tính kết nối với nhau trong mạng cục bộ hình sao, Chia sẻ các tài nguyên như máy in, thiết bị lưu trữ,..., Giao diện ứng dụng được xử lý trên máy khách, DL được xử lý trên máy chủ, Dùng cho quy mô toàn doanh nghiệp
+-	Hệ CSDL phân tán thuần nhất: Các máy tính trong Hệ CSDL có sự đồng nhất về:Hệ điều hành, Mô hình dữ liệu, Hệ quản trị CSDL, Định nghĩa và khuôn dạng DL
+-	Hệ CSDL phân tán không thuần nhất: Hợp nhất các Hệ CSDL không đồng nhất đang tồn tại trong mô hình thành một CSDL mới hoàn toàn, Hạn chế các kiểu xử lý dữ liệu của người dùng: có thể đọc nhưng không thể cập nhật DL...
+4.	Các mức biểu diễn
+-	Mức vật lý ( mức trong): Mức thấp nhất của sự trừu tượng, Nó tồn tại trong các thiết bị lưu trữ, Đây là mức lưu trữ CSDL – mức trong +Vấn đề cần giải quyết: Dữ liệu gì, được lưu trữ thế nào?, Ở đâu? (đĩa từ, băng từ, track, sector,…. nào?), Cần các chỉ mục gì?, Người sử dụng chuyên môn
+-	Mức khái niệm ( mức logic): Trừu tượng hóa thế giới thực + CSDL cần lưu giữ bao nhiêu loại dữ liệu? + Đó là những dữ liệu gì? + Mối quan hệ giữa các dữ liệu này như thế nào?, Dữ liệu gì cần thiết đưa vào CSDL, Mô tả mối quan hệ giữa các dữ liệu 
+-	Mức khung nhìn (mức ngoài): Mức ngoài (lược đồ con), Mức người sử dụng và chương trình ứng dụng, Có thể nhìn thấy toàn bộ hoặc một phần CSDL, Có thể không biết về cấu trúc tổ chức lưu trữ thông tin trong CSDL, Chỉ có thể làm việc với một phần CSDL
+5.	Ngôn ngữ CSDL
+-	Ngôn ngữ định nghĩa dữ liệu  (DDL – Data Definition Language)
++ Xác định ra lược đồ quan niệm  
+-	Ngôn ngữ lưu trữ dữ liệu (SDL – Storage Definition Language)
++ Ngôn ngữ định nghĩa lược đồ trong
+-	Ngôn ngữ định nghĩa khung nhìn (VDL – View Definition Language)
++ Ngôn ngữ định nghĩa lược đồ ngoài
+-	Ngôn ngữ thao tác dữ liệu  (DML – Data Manipulation Language)
++ Cho phép truy xuất, thêm, xóa, sửa dữ liệu
++ Mức thấp (thủ tục)
++ Mức cao (phi thủ tục)
+
+CHƯƠNG II: MỘT SỐ MÔ HÌNH KHAI THÁC CƠ SỞ DỮ LIỆU
+
+1.	Mô hình dữ liệu phân cấp
+-	Ra đời những năm 60
+-	Biểu diễn bằng sơ đồ cây
++ Quan hệ cha - con
++ Mỗi nút có một cha duy nhất
++ 1 CSDL = 1 tập các cây = 1 rừng
+-	Các phép toán: GET, GET UNIQUE, GET NEXT, GET NEXT WITHIN PARENT,...
+-	Ưu điểm:
+o	Dễ xây dựng và thao tác
+o	Ngôn ngữ thao tác đơn giản: duyệt cây
+o	Phù hợp với các tổ chức kiểu phân cấp
+-	Nhược điểm:
+o	Dư thừa và không nhất quán dữ liệu do sự lặp lại của các bản ghi
++ Cách khắc phục: bản ghi ảo
+o	Hạn chế trong biểu diễn ngữ nghĩa của các móc nối do chỉ cho phép quan hệ 1-n
+2.	Mô hình dữ liệu mạng
+-	Ra đời những năm 1960, được định nghĩa lại vào năm 1971
+-	Biểu diễn bằng đồ thị có hướng
+-	Bản ghi (record): bộ
+-	Trường (field)
+-	Móc nối
++ Chủ (owner) – thành viên (member) theo hướng của móc nối
++ Kiểu móc nối: 1-1, 1-n, đệ quy
+-	Các phép toán:
++ Duyệt: FIND, FIND member, FIND owner, FIND NEXT
++ Thủ tục: GET
+-	Ưu điểm:
++ Đơn giản
++ Truy vấn thông qua phép duyệt đồ thị
+-	Nhược điểm: Số lượng con trỏ lớn -> tốn bộ nhớ
+3.	Mô hình dữ liệu quan hệ
+-	Ra đời vào năm 6/1970 – Người phát minh: Tiến sĩ E. F. Codd  
+-	Dữ liệu biểu diễn dưới dạng bảng: đơn giản và đồng bộ
+-	Nền tảng lý thuyết: lý thuyết kết hợp
+-	Các thuật ngữ:
++ Trong toán học: quan hệ - bộ - thuộc tính
++ Hướng dữ liệu: bảng – bản ghi – trường
+-	Rất phổ biến cho đến ngày nay: là cơ sở của các HQT CSDL thương mại (Oracle. DB2, SQL Server...)
+-	Khóa ngoại: Một tập con K ⊆ U được gọi là khóa ngoại của quan hệ R xác định trên tập thuộc tính U tham chiếu đến quan hệ S nếu K là khóa chính của quan hệ S.
+4.	Mô hình thực thể liên kết
+-	1. Biểu diễn Thực thể (Entity)
+-	1.1. Thực thể mạnh (Strong Entity)
+-	Hình chữ nhật.
+-	Có khóa chính.
+-	Tồn tại độc lập.
+-	1.2. Thực thể yếu (Weak Entity)
+-	Hình chữ nhật đôi (double rectangle).
+-	Không có khóa riêng → phụ thuộc thực thể mạnh.
+-	Cần thuộc tính phân biệt (discriminator).
+-	Ràng buộc quan hệ hỗ trợ: quan hệ xác định (identifying relationship) vẽ hình thoi đôi.
+-	2. Biểu diễn Thuộc tính (Attribute)
+-	2.1. Thuộc tính đơn (Simple Attribute)
+-	Hình ellipse, 1 vòng.
+-	2.2. Thuộc tính phức hợp / tổng hợp (Composite Attribute)
+-	Ellipse chính nối với các ellipse con.
+-	2.3. Thuộc tính đa trị (Multivalued Attribute)
+-	Ellipse đôi.
+-	2.4. Thuộc tính dẫn xuất (Derived Attribute)
+-	Ellipse nét đứt (ví dụ: Age từ Birthdate).
+-	2.5. Thuộc tính khóa (Key Attribute)
+-	Gạch chân tên thuộc tính.
+-	3. Biểu diễn Quan hệ (Relationship)
+-	3.1. Quan hệ thông thường
+-	Hình thoi (diamond).
+-	3.2. Quan hệ xác định (Identifying Relationship)
+-	Dùng cho thực thể yếu.
+-	Hình thoi đôi (double diamond).
+-	3.3. Quan hệ có thuộc tính
+-	Thuộc tính được vẽ bằng ellipse nối vào hình thoi.
+-	4. Bản số (Cardinality) – Số lượng tham gia
+-	Có 4 dạng:
+-	4.1. 1–1 (một – một)
+-	Ví dụ: Người ↔ Số CMND
+Biểu diễn bằng số 1 hoặc ký hiệu (1,1).
+-	4.2. 1–N (một – nhiều)
+-	Ví dụ: Phòng ↔ Nhân viên
+Phòng có nhiều nhân viên.
+-	4.3. N–M (nhiều – nhiều)
+-	Ví dụ: Sinh viên ↔ Môn học.
+-	4.4. Tương tự với các notations:
+-	Min–max (0,1), (1,1), (0,N), (1,N)
+-	Hoặc Crow’s Feet (nhánh quạ).
+-	5. Ràng buộc tham gia (Participation Constraint)
+-	5.1. Tham gia toàn phần (Total Participation)
+-	Bắt buộc tham gia.
+-	Vẽ bằng đường đậm hoặc đường đôi từ thực thể đến quan hệ.
+-	5.2. Tham gia bộ phận (Partial Participation)
+-	Không bắt buộc.
+-	Vẽ bằng đường đơn.
+        6. Thực thể và quan hệ bậc cao
+-	6.1. Quan hệ bậc 2 (binary)
+-	Thông thường giữa 2 thực thể.
+-	6.2. Quan hệ bậc 3 (ternary)
+-	Một quan hệ giữa 3 thực thể dùng 1 hình thoi duy nhất nối cả 3.
+-	6.3. Quan hệ bậc n (n-ary)
+-	Tổng quát hơn.
+
+
+5.	Ngôn ngữ SQL
+-	Các thành phần:
++ Ngôn ngữ định nghĩa dữ liệu (DLL – Data Definition Language)
+-	Định nghĩa khung nhìn
+-	Ủy quyền
+-	Toàn vẹn dữ liệu
++ Ngôn ngữ thao tác dữ liệu (DML - Data Manipulation Language)
+-	Cập nhật dữ liệu
+-	Truy vấn dữ liệu
++ Ngôn ngữ điều khiển dữ liệu (Data Control Language) 
+-	Phân quyền người dùng
+-	Bảo mật dữ liệu
+Thay đổi cấu trúc bảng
+-	Thêm cột
+-		ALTER TABLE <Tên_bảng> 
+-			ADD COLUMN <Tên_cột> <Kiểu_dữ_liệu> [<RBTV>]
+-	Xóa cột
+-		ALTER TABLE <Tên_bảng> 
+-			DROP COLUMN <Tên_cột> 
+-	Thay đổi kiểu dữ liệu trong cột
+-		ALTER TABLE <Tên_bảng> 
+-			ALTER COLUMN <Tên_cột> <Kiểu_dữ_liệu_mới>
+-	
+•	Thay đổi RBTV
+-	Thêm RBTV
+	ALTER TABLE <Tên_bảng> ADD
+		CONSTRAINT <Tên_RBTV> <RBTV>,
+•	Cú pháp
+-	Thêm 1 dòng
+	INSERT INTO <tên bảng>(<danh sách các thuộc tính>)
+	VALUES (<danh sách các giá trị>)
+-	Thêm nhiều dòng
+	INSERT INTO <tên bảng>(<danh sách các thuộc tính>)
+		<câu truy vấn con>
+•	Cú pháp
+			UPDATE <tên bảng>
+			SET <tên thuộc tính>=<giá trị mới>,
+      			       <tên thuộc tính>=<giá trị mới>, 
+        				…
+			[WHERE <điều kiện>]
+•	Thay đổi giá trị sẵn có tại các dòng của các thuộc tính trong bảng
+•	Cú pháp
+SELECT [DISTINCT] <DS cột>|<Biểu thức>|<Hàm TV>
+FROM <DS bảng>
+[WHERE <Điều kiện tìm kiếm>]
+[GROUP BY <DS cột> [HAVING <Điều kiện>]]
+[ORDER BY <DS cột> [ASC|DESC]]
+[UNION|INTERSECT|MINUS <Câu truy vấn>]
+•	Cú pháp
+	SELECT <DS cột>
+	   	FROM <Tên bảng>
+	   	[WHERE <Điều kiện tìm kiếm>]
+	    	ORDER BY <DS cột> [ASC|DESC];
+•	Để sắp xếp các bản ghi theo một trật tự định trước
+	ASC: tăng dần
+	DESC: giảm dần
+		…
+		CONSTRAINT <Tên_RBTV> <RBTV>
+-	Xóa RBTV
+	ALTER TABLE <Tên_bảng> DROP CONSTRAINT <Tên_RBTV> 
+•	Cú pháp
+-	Tạo Index	
+	CREATE INDEX <tên chỉ mục> ON <tên bảng>(<tên cột>)
+-	Xóa Index
+	DROP INDEX <tên chỉ mục>
+•	Chỉ mục (index) là cấu trúc dữ liệu lưu trữ riêng biệt, liên kết với một hoặc nhiều cột trong bảng
+•	Chỉ mục giúp tăng tốc độ truy vấn dữ liệu (tìm kiếm, lọc, sắp xếp nhanh hơn mà không phải quét toàn bộ bảng)
+•	Làm chậm các thao tác cập nhật dữ liệu
+•	Tốn tài nguyên lưu trữ và truy xuất chỉ mục
+•	Ví dụ
+-	Tạo view thông tin nhân viên và phòng ban mà họ đang làm việc
+		CREATE VIEW NV_PhongBan AS
+		SELECT N.MANV, N.TENNV, N.LUONG, P.TENPB
+		FROM NHANVIEN N
+		JOIN PHONGBAN P ON N.PHG = P.MAPHG;
+CHƯƠNG IV: TỔ CHỨC DỮ LIỆU VẬT LÝ
+1.	Mô hình tổ chức bộ nhớ ngoài
+-	Biểu diễn cơ sở dữ liệu vật lý là việc lưu trữ các file dữ liệu, các bản ghi.
+-	Mỗi bản ghi gồm các giá trị của mỗi trường.
+-	Một số phép tính đặc trưng trên tệp dữ liệu:
++ Thêm một bản ghi
++ Xóa bản ghi
++ Sửa bản ghi
+-	Tìm kiếm bản ghi theo giá trị xác định
+-	Bộ nhớ ngoài (bộ nhớ thứ cấp) được sử dụng để lưu trữ cơ sở dữ liệu (đĩa cứng, SSD, băng từ, đám mây lưu trữ,…)
+-	Bộ nhớ ngoài được chia thành các khối vật lý có kích thước khác nhau, mỗi tệp dữ liệu chiếm một khối, mỗi khối chứa nhiều bản ghi.
+-	Các bản ghi đều có địa chỉ.
+•	Cấu trúc lưu trữ cơ bản:
++ Bit/Byte
++ Trường (field)
++ Bản ghi (record)
++ Khối (block/page)
++ File
+2.	Tổ chức tệp đống
+-	Tìm kiếm một bản ghi:
++ Hệ thống phải duyệt tuần tự toàn bộ tệp từ đầu đến cuối
++ So sánh khóa hoặc thuộc tính với từng bản ghi cho đến khi tìm thấy hoặc kết thúc file.
++ Số lần thực hiện: O(n) với n là số bản ghi
+-	Thêm một bản ghi:
++ Thêm bản ghi mới vào khối có chỗ trống (free space)
++ Nếu không có khối trống, tạo khối mới và thêm bản ghi vào đó
++ Số lần thực hiện: O(1)
+-	Xóa một bản ghi
++ Định vị bản ghi cần xóa
++ Đánh dấu (flag) bản ghi đó là “đã xóa” hoặc thay thế bởi con trỏ trống (free space pointer)
++ Không dịch chuyển toàn bộ dữ liệu
++ Hệ quả: Tệp có thể bị phân mảnh
+-	Sửa một bản ghi
++ Xác định vị trí bản ghi
++ Ghi đè trực tiếp nếu bản ghi mới có kích thước không vượt quá chỗ cũ
++ Nếu bản ghi mới dài hơn:
+	Ghi bản ghi vào vị trí khác có đủ chỗ trống
+	Lưu con trỏ từ vị trí cũ đến vị trí mới
+-	Đánh giá:
++ Ưu điểm:
+	Cấu trúc đơn giản, dễ cài đặt
+	Thêm bản ghi nhanh và hiệu quả
++ Nhược điểm:
+	Tìm kiếm và xóa kém hiệu quả (phải duyệt tuần tự)
+	Dễ phân mảnh dữ liệu sau nhiều lần thêm/xóa
+	Không phù hợp cho hệ thống có nhiều thao tác truy vấn phức tạp.
+3.	Tổ chức tệp băm
++ Tổ chức tệp băm là phương pháp lưu trữ dữ liệu dựa trên hàm băm để ánh xạ khóa tìm kiếm đến vị trí khối (block/page) trên bộ nhớ ngoài.
++ Hàm băm (hashed function): Cho k là số nguyên dương, khi đó hàm băm (kí hiệu hk(x)) được xác định là hk(x) = x mod k
++ Hàm băm nhận một giá trị trong khoảng [0, k]
+-	Đánh giá:
++ Ưu điểm:
+	Truy xuất trực tiếp, nhanh chóng, chính xác
+	Thêm và xóa bản ghi hiệu quả
++ Nhược điểm:
+	Không phù hợp với truy vấn phạm vi
+	Xung đột băm làm tăng độ phức tạp và giảm hiệu suất
+	Nếu không quản lý tốt cơ chế tràn thì hiệu năng sẽ giảm mạnh
+
+
+
+
+
+
+
