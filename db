@@ -380,4 +380,48 @@ Là một trường hợp đặc biệt của Theta Join khi điều kiện là 
 	 θ là phép so sánh bằng (=)
 Vẫn giữ cả hai thuộc tính tham gia kết nối 
 			 R ⋈_{R.A = S.B} S
+4 tính chất của giao dịch: nguyên tử, nhất quán, cô lập, bền vững
 
+Câu lệnh SQL nào sau đây cho phép tạo một khẳng định?
+a. CREATE ASSERTION &lt;tên khẳng định&gt; CHECK &lt;vị từ&gt;
+Ánh xạ cuốn  Là ánh xạ từ các hàng của bảng này lên các hàng của bảng khác mà bảo toàn biến phân biệt và các hằng số
+
+Dưới đây là 4 tính chất của một giao dịch (transaction) trong SQL, gọi là ACID – đây là kiến thức cơ bản nhưng rất quan trọng trong môn Cơ sở dữ liệu:
+
+🔹 1. Atomicity – Tính nguyên tử
+
+Giao dịch được xem như một đơn vị thao tác duy nhất.
+Hoặc tất cả các thao tác đều thực hiện, hoặc không có thao tác nào được thực hiện.
+
+➡ Ví dụ: chuyển tiền 1 triệu từ A → B
+
+Trừ tiền tài khoản A
+
+Cộng tiền tài khoản B
+Nếu một bước lỗi → rollback, không có bước nào được áp dụng.
+
+🔹 2. Consistency – Tính nhất quán
+
+Giao dịch phải đưa CSDL từ trạng thái nhất quán này sang trạng thái nhất quán khác.
+Không được làm vi phạm các ràng buộc (khóa chính, ngoại, miền, CHECK, trigger...).
+
+➡ Ví dụ: SLXuat của một mặt hàng không thể âm.
+
+🔹 3. Isolation – Tính cô lập
+
+Các giao dịch không được ảnh hưởng lẫn nhau khi đang thực thi đồng thời.
+Kết quả tạm thời của 1 giao dịch không được giao dịch khác nhìn thấy (tùy mức độ cô lập).
+
+➡ Tránh các lỗi: Dirty Read, Non-repeatable Read, Phantom Read.
+
+🔹 4. Durability – Tính bền vững
+
+Khi một giao dịch commit, dữ liệu đã ghi sẽ được lưu vĩnh viễn, không bị mất kể cả khi:
+
+Hệ thống lỗi
+
+Mất điện
+
+Hệ quản trị bị tắt đột ngột
+
+➡ DBMS đảm bảo bằng việc ghi log, cơ chế hồi phục.
