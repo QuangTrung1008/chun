@@ -285,7 +285,76 @@ CHƯƠNG IV: TỔ CHỨC DỮ LIỆU VẬT LÝ
 	Xung đột băm làm tăng độ phức tạp và giảm hiệu suất
 	Nếu không quản lý tốt cơ chế tràn thì hiệu năng sẽ giảm mạnh
 
+Thuật toán tính bao đóng của tập các thuộc tính đối với một tập phụ thuộc hàm
+Vào: Tập hữu hạn các thuộc tính U, tập các phụ thuộc hàm F trên U và XU
+Ra: X+
+, bao đóng của X đối với F
+Phương pháp:
+Lần lượt tính các X0
+, X1
+, ....theo các bước sau
 
+Bước 1: Gán W = F .
+Bước 2: Sau đó gán X0 = X.
+Bước 3: Kiểm tra phụ thuộc A → B ∈ W .
+Nếu A ⊆ Xi và Nếu B ⊄ Xi khi đó Xi = Xi-1 ∪ B, i = 2,3....., W= W – {A → B}.
+Ngược lại B ⊆ Xi
+
+, Xi không thay đổi.
+
+Lập lại bước 3.
+Thuật toán dừng kiểm tra nếu W = ∅ hoặc không tồn tại A → B ∈ W, sao cho A ⊆ Xi
+.
+
+Nếu B ⊆ Xi
+
+, khi đó A → B là phụ thuộc dư thừa.
+
+Bước 4: Tồn tại chỉ số k sao cho: Xi = Xi+1 = Xi+2 = ....=X+
+
+Thuật toán tìm phủ tối thiểu
+Bước 1: Tách các phụ thuộc hàm sao cho vế phải chỉ chứa 1 thuộc tính
+Bước 2: Loại bỏ các thuộc tính dư thừa ở vế trái (tính bao đóng của m-1 phần tử mà trong đó
+có chứa cả phần tử khác còn lại cũng nằm trong vế trái thì phần tử đó là dư thừa
+Bước 3: Loại bỏ các phụ thuộc hàm dư thừa. Xét bao đóng của tập thuộc tính vế trái nếu có
+chứa thuộc tính vế phải thì loại bỏ phụ thuộc hàm đó
+
+3.3.2 Các phương pháp xác định khoá.
++ Tìm tất cả các khóa trong lược đồ quan hệ
+Trước khi đi vào chi tiết chúng ta tìm hiểu một số khái niệm:
+- Tập thuộc tính nguồn (TN): bao gồm các thuộc tính chỉ xuất hiện ở vế trái, không xuất hiện ở
+vế phải của phụ thuộc hàm và các thuộc tính không xuất hiện ở vế trái lẫn vế phải của phụ
+thuộc hàm
+
+32
+- Tập thuộc tính đích (TĐ) : bao gồm các thuộc tính chỉ xuất hiện ở vế phải không xuất hiện ở
+vế trái của phụ thuộc hàm.
+- Tập thuộc tính trung gian (TG): Chứa thuộc tính ở vế trái lẫn vế phải của phụ thuộc hàm.
+Thuật toán:
+Bước 1: - Tạo tập nguồn TN và tập trung gian TG
+Bước 2: - Nếu TG= (rỗng) thì K=TN, kết thúc. ngược lại qua bước 3.
+Bước 3: - tìm tất cả tập con Xi của tập trung gian.
+Bước 4: - tìm siêu khóa Si bằng cách với mọi Xi,
+nếu (TN U Xi)+=Q+ thì Si = TN U Xi
+Bước 5: - tìm khóa bằng cách loại bỏ các siêu khóa không tối thiểu
+- với mọi Si, Sj thuộc S
+nếu Si chứa trong Sj thì loại bỏ tập Sj ra khỏi siêu khóa (VD: Si=AB, Sj=ABC thì loại bỏ
+Sj ra khỏi tập siêu khóa)
+S còn lại chính là tập khóa cần tìm.
++ Thuật toán tìm một khóa trên lược đồ quan hệ
+Mục tiêu : cho một lược đồ U có các thuộc tính {A1,A2,...An} và tập Phụ thuộc hàm F. Hãy
+tìm một khóa cho lược đồ đó.
+Thuật toán:
+Bước 1 :
++ Gán K0=U+ (U+ là tập thuộc tính của U)
+Bước 2 : ta có A là thuộc tính của U.
++ Tính bao đóng của (Ki-1\A)+ nếu bằng U+ ((Ki-1\A)+ =U+
+
+) thì loại bỏ A ra khỏi K tức là Ki
+
+=(Ki-1\A). nếu (Ki-1\A)+ !=U+ thì Ki =Ki-1.
+Lặp lại bước trên n lần
+Bước n: kết quả K=Kn
 
 
 
