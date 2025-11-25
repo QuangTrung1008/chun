@@ -359,6 +359,12 @@ ptt giữ vế trái tách vế phải, tìm bao đóng vế trái
 còn tìm khoá thì tìm L, R, TN, TG xong ghép TG với TN nếu TG khác rỗng
 
 
+Tạo khung nhìn cho người sử dụng
+CREATE VIEW <tên view> [(<d/s tên cột>)]  AS <câu truy vấn SQL>
+Tuyên bố và kiểm tra quyền truy cập
+GRANT <d/s các thao tác> ON <đối tượng> TO <d/s người sử dụng> [WITH GRANT OPTION]
+Hủy bỏ quyền truy nhập
+REVOKE <d/s các thao tác> ON <đối tượng> FROM <d/s người sử dụng>
 
 
 
