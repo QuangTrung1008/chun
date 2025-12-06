@@ -1,0 +1,165 @@
+CHƯƠNG I. MỘT SỐ KHÁI NIỆM CƠ BẢN
+GIẢI THUẬT
+Giải thuật (hay thuật toán) là một dãy các quy tắc chặt chẽ xác định một trình tự các thao tác trên một đối tượng cụ thể để giải quyết một vấn đề hoặc hoàn thành một mục đích nào đó.
+– Luôn được thiết kế bởi 03 cấu trúc điều khiển:
+	Cấu trúc tuần tự: Các bước thực hiện theo trình tự chính xác, mỗi bước thực hiện đúng một lần
+	Cấu trúc chọn lọc: Chọn một thao tác để thực hiện trong nhiều thao tác
+	Cấu trúc chu trình: Một hay nhiều bước được thực hiện lặp lại
+CẤU TRÚC DỮ LIỆU
+	Dữ liệu cơ sở: Là tập hợp các phần tử dữ liệu ban đầu trong một bài toán (tức là các số liệu, thông tin đã biết trước).
+	Cấu trúc dữ liệu: Là sự kết hợp các dữ liệu cơ sở theo một phương thức nào đó nhằm liên kết chúng thành một cấu trúc thống nhất, tiện lợi cho quá trình xử lý.
+Chương trình = Cấu trúc dữ liệu + Giải thuật
+CẤU TRÚC LƯU TRỮ
+Cấu trúc lưu trữ là cách thức biểu diễn một cấu trúc dữ liệu trong bộ nhớ.
+CÁC PHƯƠNG PHÁP BIỂU DIỄN GIẢI THUẬT
+Có 03 phương pháp biểu diễn giải thuật:
+	Biểu diễn giải thuật bằng lời: Sử dụng các ngôn ngữ tự nhiên, gần gũi, thân thiện để trình bày giải thuật.
+	Biểu diễn giải thuật bằng sơ đồ khối: Sử dụng các hình khối với các quy ước đi kèm cho từng hình khối để biểu diễn các quy trình tính toán và mối liên hệ giữa các khối với nhau.  cho cái nhìn tổng thể về phương pháp giải bài toán
+	Biểu diễn giải thuật bằng ngôn ngữ lập trình: biểu diễn giải thuật 1 cách ngắn gọn
+ĐỘ PHỨC TẠP CỦA GIẢI THUẬT – KÝ PHÁP CHỮ O LỚN
+– Độ phức tạp của giải thuật được đánh giá bằng số phép tính mà giải thuật đó thực hiện.
+– Số phép tính mà một giải thuật thực hiện là một hàm T(n) bất kỳ.
+– Tuy nhiên, để đơn giản và dễ hiểu hơn, áp dụng linh hoạt và dễ dàng so sánh, người ta chuyển T(n) về dạng tổng quát sử dụng ký pháp chữ O lớn (Big-O). Khi đó, BigO chính là thời gian để thực hiện lâu nhất.
+MODULE HÓA – HAI PHƯƠNG PHÁP MODULE HÓA GIẢI THUẬT
+– Module hóa là chỉ việc chia bài toán lớn thành các bài toán nhỏ hơn, ngày càng cụ thể và chi tiết hơn như các mô-đun riêng.
+– Hai phương pháp module hóa giải thuật bao gồm:
+	Phân tích từ đỉnh xuống (Top Down): Xác định các vấn đề chủ yếu, bao quát bài toán; sau đó chia nhiệm vụ cần giải quyết thành các nhiệm vụ cụ thể hơn.
+	Phân tích từ dưới lên (Bottom Up): Giải quyết các vấn đề cụ thể trước, sau đó góp lại thành các chức năng lớn hơn từ dưới lên trên; sau cùng là thêm một số chương trình làm phong phú, đầy đủ hơn.
+______________________________________
+MỘT SỐ KỸ THUẬT TRONG GIẢI THUẬT
+– Chia để trị (Devide and Conquer): Chia bài toán đã cho thành các bài toán con có kích thước nhỏ hơn; giải các bài toán con sau đó tổng hợp kết quả.
+– Quy hoạch động (Dynamic Programming): Tạo một bảng lưu tất cả các kết quả của bài toán con. Khi cần chỉ cần lấy kết quả từ bảng mà không cần tính lại.
+– Lựa chọn thành phần (Component Selection): Lựa chọn các thành phần tốt, tối ưu trước; các thành phần không tốt chọn sau.
+– Quay lui (Backtracking): Phân tích cho tới các điểm dừng. Nếu thấy không xác định được kết quả hoặc không thể đi tiếp thì quay ngược trở lại và chọn hướng khác.
+
+
+CHƯƠNG II – CẤU TRÚC DỮ LIỆU KIỂU MẢNG
+KHÁI NIỆM
+Mảng (array) là một tập hợp có thứ tự bao gồm một số lượng cố định các phần tử, được truy cập với cùng một tên.
+– Địa chỉ cơ sở là địa chỉ của ô nhớ đầu tiên để lưu trữ phần tử trong mảng (chính là vị trí của phần tử đầu tiên trong mảng). Địa chỉ cơ sở của mảng A ký hiệu là Base(A).
+MẢNG MỘT CHIỀU
+Mảng một chiều là tập hợp tuần tự các phần tử có cùng kiểu dữ liệu và các phần tử được lưu trữ trong một dãy các ô nhớ liên tục trên bộ nhớ.
+– Phương pháp lưu trữ mảng một chiều: Do được lưu trữ trong các ô nhớ liên tiếp nên nếu địa chỉ cơ sở của mảng A là Base(A) thì phần tử thứ i trong mảng nằm ở địa chỉ
+Base(A) + (i – 1).
+MẢNG HAI CHIỀU
+Mảng hai chiều là nhiều mảng một chiều đứng cạnh nhau trong bộ nhớ.
+– Phần tử ở dòng 1 cột 1 sẽ là địa chỉ cơ sở của mảng hai chiều.
+– Phương pháp lưu trữ mảng hai chiều: Gồm hai phương pháp:
+________________________________________
+PHƯƠNG PHÁP LƯU TRỮ MẢNG HAI CHIỀU ƯU TIÊN DÒNG
+Công thức tổng quát địa chỉ phần tử nằm ở dòng i cột j là:
+P(i,j)=Base+(i-1).m.k+(j-1).k
+
+PHƯƠNG PHÁP LƯU TRỮ MẢNG HAI CHIỀU ƯU TIÊN CỘT
+Từ địa chỉ cơ sở, ta lưu trữ các phần tử kế tiếp theo thứ tự trên cột. Chẳng hạn có mảng hai chiều như sau:
+Công thức tổng quát địa chỉ phần tử nằm ở dòng i cột j là:
+P(i,j)=Base+(i-1).k+(j-1).n.k
+
+Trong đó:
+	Base là địa chỉ cơ sở (địa chỉ của phần tử nằm ở dòng 1 cột 1)
+	n là số dòng
+	k là số ô nhớ mà mỗi phần tử sẽ chiếm. Bình thường nếu không nói gì thì k = 1
+	i, j là vị trí ô cần tính địa chỉ
+
+
+CHƯƠNG III – NGĂN XẾP, HÀNG ĐỢI VÀ DANH SÁCH LIÊN KẾT
+DANH SÁCH
+Danh sách (hay List) là một tập hợp gồm nhiều phần tử có tính chất cấu trúc thứ tự giữa các phần tử với nhau: Nếu biết được phần tử thứ i thì sẽ biết được vị trí của phần tử thứ i + 1.
+– Khác với mảng, các phần tử của danh sách có thể nằm rải rác trong bộ nhớ chứ không nhất thiết phải liên tục, liền kề nhau.
+– Key trong danh sách là thông tin để tìm kiếm. Kết quả của phép tìm kiếm là vị trí của phần tử đó.
+CẤU TRÚC DỮ LIỆU KIỂU NGĂN XẾP (STACK)
+Ngăn xếp (hay Stack) là một kiểu danh sách tuyến tính đặc biệt mà việc bổ sung hay loại bỏ một phần tử chỉ thực hiện ở một đầu gọi là đỉnh (Top).
+– Do vậy, đặc trưng của ngăn xếp là quy tắc vào sau ra trước (Last In First Out – LIFO).
+Có thể hình dung điều này như một chiếc ly:
+(Minh họa: Push và Pop với các phần tử C, B, A)
+– Ngăn xếp được xác định là rỗng khi Top = 0.
+– Phương pháp lưu trữ ngăn xếp: Lưu trữ bằng một mảng. Có một biến Top cho biết đỉnh của ngăn xếp, mặc định (khi rỗng) bằng 0.
+	Khi thêm một phần tử vào đỉnh ngăn xếp:
+Top = Top + 1.
+Hàm thực hiện là Push(Stack, Item).
+	Khi xóa một phần tử khỏi đỉnh ngăn xếp:
+Top = Top – 1.
+Hàm thực hiện là Pop(Stack, Item).
+CẤU TRÚC DỮ LIỆU KIỂU HÀNG ĐỢI (QUEUE)
+Hàng đợi (hay Queue) là kiểu danh sách tuyến tính mà phép bổ sung một phần tử (enqueue) được thực hiện ở một đầu gọi là lối sau (Rear), còn phép loại bỏ một phần tử (dequeue) thực hiện ở một đầu khác gọi là lối trước (Front).
+– Do vậy, đặc trưng của hàng đợi là quy tắc vào trước ra trước (First In First Out – FIFO).
+Có thể hiểu điều này bằng cách liên tưởng tới việc xếp hàng: Ai đến trước mua trước, đến sau phải đợi cuối hàng.
+• Hàng đợi được xác định là rỗng nếu Front = Rear
+________________________________________
+CÁC PHƯƠNG PHÁP LƯU TRỮ HÀNG ĐỢI
+Phương pháp lưu trữ bằng mảng:
+Sử dụng mảng để lưu trữ các phần tử. Có thêm hai biến Front và Rear để lưu trữ lối trước và lối sau, mặc định bằng nhau và bằng 0.
+	Khi thêm một phần tử vào cuối hàng đợi:
+Rear = Rear + 1.
+Hàm thực hiện là AddQ(Queue, Item)
+	Khi xóa bỏ một phần tử từ đầu hàng đợi:
+Front = Front + 1.
+Hàm thực hiện là RemoveQ(Queue, Item)
+→ Do khi thêm thì thêm vào cuối, còn loại bỏ thì loại ở đầu nên với phương pháp này, Queue sẽ chạy lung tung trong bộ nhớ → Không tối ưu.
+Phương pháp lưu trữ bằng danh sách nối vòng:
+Coi không gian nhớ như được tổ chức theo kiểu hình tròn, từ lá liền sau phần tử cuối cùng sẽ quay về phần tử đầu tiên.
+	Khi thêm một phần tử vào cuối hàng đợi:
+Rear = (Rear + 1) % MaxSize.
+Hàm thực hiện là AddQ(Queue, Item)
+	Khi xóa bỏ một phần tử từ đầu hàng đợi:
+Front = (Front + 1) % MaxSize.
+Hàm thực hiện là RemoveQ(Queue, Item)
+→ Trong đó, MaxSize là kích thước tối đa (số lượng phần tử tối đa) mà hàng đợi có thể lưu trữ.
+DANH SÁCH LIÊN KẾT ĐƠN
+Danh sách liên kết đơn (hay Linked List) là danh sách mà mỗi phần tử của nó sẽ được lưu trữ trong một nút (node). Mỗi nút bao gồm một số tử mấy liên tiếp nhau nhưng bản thân các nút thì có thể nằm rải rác trong bộ nhớ.
+Có 2 cách cài đặt danh sách liên kết đơn:
+	Cài đặt danh sách liên kết đơn trên cơ sở mảng:
+Gồm một mảng chứa các nút; con trỏ L trỏ tới nút đầu tiên trong danh sách.
+	Cài đặt danh sách liên kết đơn trên cơ sở biến con trỏ:
+Con trỏ L trỏ tới nút đầu tiên trong danh sách. Mỗi nút có thêm một trường con trỏ để trỏ tới nút liên tiếp sau nó.
+DANH SÁCH LIÊN KẾT ĐỐI XỨNG / LIÊN KẾT ĐÔI
+Danh sách liên kết đối xứng (hay danh sách liên kết đôi – Double Linked List) là danh sách mà các phần tử của nó có hai vùng liên kết.
+Mỗi nút sẽ có hai con trỏ liên kết:
+	LPtr (Left Pointer): trỏ tới nút đứng trước
+	RPtr (Right Pointer): trỏ tới nút đứng sau
+Con trỏ trỏ đến phần tử đầu tiên của danh sách là L, con trỏ trỏ đến phần tử cuối cùng của danh sách là R.
+LPtr của L và RPtr của R là con trỏ Nil (rỗng).
+(Hình minh họa: L → A ↔ B ↔ C ↔ D ↔ E → R)
+
+
+
+CHƯƠNG IV – CẤU TRÚC DỮ LIỆU CÂY
+KHÁI NIỆM
+Cây (hay Tree) là tập hợp hữu hạn các nút có mối quan hệ phân cấp xuất phát từ một nút gọi là gốc (root).
+– Các nút của cây được phân cấp theo mức (các nút cùng hàng thì cùng mức). Ta quy ước nút gốc có mức là mức 1. Sau đó tăng dần đến các nút con bên dưới.
+CÂY NHỊ PHÂN
+Cây nhị phân (hay Binary Tree) là cây mà mỗi nút của nó chỉ có tối đa 2 nút con gọi là nút con trái và nút con phải.
+PHƯƠNG PHÁP LƯU TRỮ CÂY NHỊ PHÂN
+Phương pháp lưu trữ cây nhị phân bằng mảng:
+Lần lượt đánh số cho các nút từ mức 1 trở đi, từ trái sang phải. Khi đó, nếu một nút được lưu trong mảng ở vị trí thứ i thì:
+	nút con trái của nó sẽ nằm tại vị trí 2i
+	nút con phải của nó sẽ nằm tại vị trí 2i + 1
+CÂY NHỊ PHÂN TÌM KIẾM VÀ CÂY NHỊ PHÂN CÂN ĐỐI
+Cây nhị phân tìm kiếm (Binary Search Tree) là cây nhị phân mà mỗi nút của nó luôn thỏa mãn hai điều kiện:
+	Giá trị của nút con trái nhỏ hơn giá trị của chính nút đó
+	Giá trị của nút con phải lớn hơn giá trị của chính nút đó
+Cây nhị phân cân đối AVL (AVL Balanced Binary Tree) là cây nhị phân mà đối với mọi nút của nó, chiều cao của hai cây con tương ứng chỉ chênh nhau một đơn vị.
+
+
+
+CHƯƠNG V – CẤU TRÚC DỮ LIỆU ĐỒ THỊ
+ĐỒ THỊ CÓ HƯỚNG
+Đồ thị có hướng (Directed Graph) gồm một tập hợp hữu hạn các phần tử gọi là nút hay đỉnh, cùng một tập hợp hữu hạn các cạnh có hướng nối các cặp đỉnh với nhau.
+CÁC PHƯƠNG PHÁP BIỂU DIỄN ĐỒ THỊ CÓ HƯỚNG
+Phương pháp sử dụng ma trận kề:
+Là một ma trận vuông cấp n×n, trong đó n là số đỉnh của đồ thị.
+Phần tử nằm ở dòng i, cột j sẽ bằng
+Phương pháp sử dụng danh sách kề:
+Là một mảng chứa các danh sách liên kết.
+Trong đó, mỗi danh sách a[i] chứa các đỉnh mà từ đỉnh i có liên kết với đỉnh đó.
+ĐỒ THỊ VÔ HƯỚNG
+Đồ thị vô hướng là tập hợp hữu hạn các phần tử gọi là nút hay đỉnh cùng với một tập hợp hữu hạn các cạnh nối các cặp đỉnh với nhau.
+CÁC PHƯƠNG PHÁP BIỂU DIỄN ĐỒ THỊ VÔ HƯỚNG
+Biểu diễn đồ thị vô hướng bằng ma trận kề:
+Do đó, ma trận kề của đồ thị vô hướng là một ma trận đối xứng.
+Biểu diễn đồ thị vô hướng bằng danh sách kề:
+Giống với biểu diễn đồ thị có hướng bằng danh sách kề.
+Biểu diễn đồ thị vô hướng bằng danh sách các cạnh:
+Các nút được biểu diễn bởi một nhóm 4 ô, trong đó có 2 ô phía trên là hai nút được nối bởi một cạnh. Ô Link[1] chỉ đến một cạnh khác có đỉnh Vertex[1] là đỉnh cuối; ô Link[2] chỉ đến một cạnh khác có đỉnh Vertex[2] là đỉnh cuối.
+
+
