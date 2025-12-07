@@ -5,6 +5,20 @@ Giải thuật (hay thuật toán) là một dãy các quy tắc chặt chẽ x�
 	Cấu trúc tuần tự: Các bước thực hiện theo trình tự chính xác, mỗi bước thực hiện đúng một lần
 	Cấu trúc chọn lọc: Chọn một thao tác để thực hiện trong nhiều thao tác
 	Cấu trúc chu trình: Một hay nhiều bước được thực hiện lặp lại
+Tính chất giải thuật
+- Tính rõ ràng: giải thuật được thể hiện bằng các thao tác tường minh được sắp
+xếp theo thứ tự xác định
+- Tính xác định: Mỗi thao tác của giải thuật có mục đích cụ thể và rõ ràng.
+- TÍnh chính xác: Kết quả tính toán của từng thao tác hay từng giai đoạn của
+giải thuật luôn chính xác và đơn nhất.
+- Tính khách quan: Giải thuật không phụ thuộc vào ngôn ngữ lập trình.
+- Tính phổ dụng: Một giải thuật có thể được triển khai trong nhiều ngôn ngữ lập
+trình khác nhau.
+- Tính dừng ( tính kết thúc): Sau một số hữu hạn các thao tác thực hiện giải
+thuật phải kết thúc và cho kết quả mong muốn.
+- Dữ liệu đầu vào và kết quả đầu ra xác định: Dữ liệu đầu vào và kết quả đầu ra
+sau khi hoàn thành thực hiện giải thuật luôn là các yếu tố được xác định ngay
+trong quá trình thiết kế giải thuật (xt. thiết kế giải thuật).
 CẤU TRÚC DỮ LIỆU
 	Dữ liệu cơ sở: Là tập hợp các phần tử dữ liệu ban đầu trong một bài toán (tức là các số liệu, thông tin đã biết trước).
 	Cấu trúc dữ liệu: Là sự kết hợp các dữ liệu cơ sở theo một phương thức nào đó nhằm liên kết chúng thành một cấu trúc thống nhất, tiện lợi cho quá trình xử lý.
