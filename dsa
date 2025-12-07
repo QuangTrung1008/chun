@@ -64,21 +64,20 @@ Trong đó:
 
 CHƯƠNG III – NGĂN XẾP, HÀNG ĐỢI VÀ DANH SÁCH LIÊN KẾT
 DANH SÁCH
-Danh sách (hay List) là một tập hợp gồm nhiều phần tử có tính chất cấu trúc thứ tự giữa các phần tử với nhau: Nếu biết được phần tử thứ i thì sẽ biết được vị trí của phần tử thứ i + 1.
+- Định nghĩa giáo trình: Danh sách (List) là một tập hợp gồm nhiều phần tử có tính chất cấu trúc thứ tự giữa các phần tử với nhau: nếu biết được phần tử i, thì sẽ biết được vị trí của phần tử i+1
+- Sitde: Danh sách (hay List) là một tập hợp gồm nhiều phần tử có tính chất cấu trúc thứ tự giữa các phần tử với nhau: Nếu biết được phần tử thứ i thì sẽ biết được vị trí của phần tử thứ i + 1.
 – Khác với mảng, các phần tử của danh sách có thể nằm rải rác trong bộ nhớ chứ không nhất thiết phải liên tục, liền kề nhau.
 – Key trong danh sách là thông tin để tìm kiếm. Kết quả của phép tìm kiếm là vị trí của phần tử đó.
 CẤU TRÚC DỮ LIỆU KIỂU NGĂN XẾP (STACK)
 Ngăn xếp (hay Stack) là một kiểu danh sách tuyến tính đặc biệt mà việc bổ sung hay loại bỏ một phần tử chỉ thực hiện ở một đầu gọi là đỉnh (Top).
-– Do vậy, đặc trưng của ngăn xếp là quy tắc vào sau ra trước (Last In First Out – LIFO).
-Có thể hình dung điều này như một chiếc ly:
-(Minh họa: Push và Pop với các phần tử C, B, A)
+– Do vậy, đặc trưng của ngăn xếp là quy tắc vào sau ra trước (Last In First Out – LIFO), Stack còn được gọi là danh sách hạn chế
+
+
 – Ngăn xếp được xác định là rỗng khi Top = 0.
 – Phương pháp lưu trữ ngăn xếp: Lưu trữ bằng một mảng. Có một biến Top cho biết đỉnh của ngăn xếp, mặc định (khi rỗng) bằng 0.
-	Khi thêm một phần tử vào đỉnh ngăn xếp:
-Top = Top + 1.
+	Khi thêm một phần tử vào đỉnh ngăn xếp: Top = Top + 1.
 Hàm thực hiện là Push(Stack, Item).
-	Khi xóa một phần tử khỏi đỉnh ngăn xếp:
-Top = Top – 1.
+	Khi xóa một phần tử khỏi đỉnh ngăn xếp: Top = Top – 1.
 Hàm thực hiện là Pop(Stack, Item).
 CẤU TRÚC DỮ LIỆU KIỂU HÀNG ĐỢI (QUEUE)
 Hàng đợi (hay Queue) là kiểu danh sách tuyến tính mà phép bổ sung một phần tử (enqueue) được thực hiện ở một đầu gọi là lối sau (Rear), còn phép loại bỏ một phần tử (dequeue) thực hiện ở một đầu khác gọi là lối trước (Front).
@@ -106,7 +105,11 @@ Front = (Front + 1) % MaxSize.
 Hàm thực hiện là RemoveQ(Queue, Item)
 → Trong đó, MaxSize là kích thước tối đa (số lượng phần tử tối đa) mà hàng đợi có thể lưu trữ.
 DANH SÁCH LIÊN KẾT ĐƠN
-Danh sách liên kết đơn (hay Linked List) là danh sách mà mỗi phần tử của nó sẽ được lưu trữ trong một nút (node). Mỗi nút bao gồm một số tử mấy liên tiếp nhau nhưng bản thân các nút thì có thể nằm rải rác trong bộ nhớ.
+Giáo trình: Để lưu trữ danh sách loại này, mỗi phần tử của nó sẽ được lưu trữ trong một nút (node). Mỗi nút bao gồm một số từ máy liên tiếp nhau, nhưng bản thân các nút thì có thể nằm rải rác trong bộ nhớ.
+Cấu trúc mỗi nút gồm hai phần:
+   - Phần chứa dữ liệu Data.
+   - Phần liên kết chỉ phần tử đứng sau nó.
+Sitde: Danh sách liên kết đơn (hay Linked List) là danh sách mà mỗi phần tử của nó sẽ được lưu trữ trong một nút (node). Mỗi nút bao gồm một số tử mấy liên tiếp nhau nhưng bản thân các nút thì có thể nằm rải rác trong bộ nhớ.
 Có 2 cách cài đặt danh sách liên kết đơn:
 	Cài đặt danh sách liên kết đơn trên cơ sở mảng:
 Gồm một mảng chứa các nút; con trỏ L trỏ tới nút đầu tiên trong danh sách.
@@ -119,7 +122,6 @@ Mỗi nút sẽ có hai con trỏ liên kết:
 	RPtr (Right Pointer): trỏ tới nút đứng sau
 Con trỏ trỏ đến phần tử đầu tiên của danh sách là L, con trỏ trỏ đến phần tử cuối cùng của danh sách là R.
 LPtr của L và RPtr của R là con trỏ Nil (rỗng).
-(Hình minh họa: L → A ↔ B ↔ C ↔ D ↔ E → R)
 
 
 
@@ -140,18 +142,22 @@ Cây nhị phân tìm kiếm (Binary Search Tree) là cây nhị phân mà mỗi
 	Giá trị của nút con phải lớn hơn giá trị của chính nút đó
 Cây nhị phân cân đối AVL (AVL Balanced Binary Tree) là cây nhị phân mà đối với mọi nút của nó, chiều cao của hai cây con tương ứng chỉ chênh nhau một đơn vị.
 
+Tìm theo chiều sâu của cây (DFS)
+“Trước hết chúng ta thăm gốc rồi chọn một trong các nút con của nó chẳng hạn nút B và thăm nút này.
+Tuy nhiên, trước khi thăm các nút con khác, chúng ta thăm các nút con của B theo chiều sâu. Chúng ta chọn một trong các con của B chẳng hạn nút E và thăm nó.”
 
 
 CHƯƠNG V – CẤU TRÚC DỮ LIỆU ĐỒ THỊ
 ĐỒ THỊ CÓ HƯỚNG
 Đồ thị có hướng (Directed Graph) gồm một tập hợp hữu hạn các phần tử gọi là nút hay đỉnh, cùng một tập hợp hữu hạn các cạnh có hướng nối các cặp đỉnh với nhau.
 CÁC PHƯƠNG PHÁP BIỂU DIỄN ĐỒ THỊ CÓ HƯỚNG
-Phương pháp sử dụng ma trận kề:
+  - Phương pháp sử dụng ma trận kề:
 Là một ma trận vuông cấp n×n, trong đó n là số đỉnh của đồ thị.
 Phần tử nằm ở dòng i, cột j sẽ bằng
-Phương pháp sử dụng danh sách kề:
-Là một mảng chứa các danh sách liên kết.
-Trong đó, mỗi danh sách a[i] chứa các đỉnh mà từ đỉnh i có liên kết với đỉnh đó.
+   - Phương pháp sử dụng danh sách kề:Một đồ thị có hướng được biểu diễn bởi một mảng các con trỏ V[1], V[2], … V[n], 
+mỗi con trỏ cho mỗi nút trong đồ thị có hướng. Mỗi phần tử mảng V[i] chỉ đến một nút đầu lưu trữ dữ liệu cho nút ấy và chứa một con trỏ chỉ đến một danh sách liên kết của các nút kề 
+(Nút được nối với i theo hướng từ i đi ra). Mỗi nút kề có hai trường: trường số nguyên, lưu trữ dữ liệu của nút và một trường liên kết chỉ đến nút tiếp theo trong danh sách kề này.
+
 ĐỒ THỊ VÔ HƯỚNG
 Đồ thị vô hướng là tập hợp hữu hạn các phần tử gọi là nút hay đỉnh cùng với một tập hợp hữu hạn các cạnh nối các cặp đỉnh với nhau.
 CÁC PHƯƠNG PHÁP BIỂU DIỄN ĐỒ THỊ VÔ HƯỚNG
@@ -162,4 +168,50 @@ Giống với biểu diễn đồ thị có hướng bằng danh sách kề.
 Biểu diễn đồ thị vô hướng bằng danh sách các cạnh:
 Các nút được biểu diễn bởi một nhóm 4 ô, trong đó có 2 ô phía trên là hai nút được nối bởi một cạnh. Ô Link[1] chỉ đến một cạnh khác có đỉnh Vertex[1] là đỉnh cuối; ô Link[2] chỉ đến một cạnh khác có đỉnh Vertex[2] là đỉnh cuối.
 
+CHƯƠNG CUỐI: TÌM KIẾM VÀ SẮP XẾP
+CÁC THUẬT TOÁN SẮP XẾP
 
+NHÓM THUẬT TOÁN SẮP XẾP ĐỔI CHỖ
+
+Gồm 3 thuật toán
+Sắp xếp nổi bọt (Bubble Sort): Thực hiện duyệt từ đầu đến cuối dãy cần sắp xếp. Nếu a[i] > a[i+1] thì đổi chỗ hai phần tử này cho nhau. Lặp lại quá trình này đến khi không còn xảy ra việc đổi chỗ hai phần tử.
+Sắp xếp chèn (Insertion Sort): Tại vị trí phần tử a[i] đang xét, ta lần lượt so sánh với các phần tử a[i–1] đến a[1], nếu tìm thấy vị trí thích hợp, ta chèn a[i] vào vị trí này.
+Sắp xếp chọn (Selection Sort): Tại phần tử a[i] đang xét, ta tìm ra phần tử nhỏ nhất trong đoạn từ a[i] đến a[n], sau đó đổi chỗ phần tử đó với a[i] đang xét.
+
+NHÓM THUẬT TOÁN SẮP XẾP XEN VÀO
+
+Gồm 3 thuật toán
+- Sắp xếp chèn: Đã nêu bên trên
+- Sắp xếp giảm độ tăng (Shell Sort): Chọn một khoảng cách khởi tạo (h) và chia danh sách thành các nhóm con. 
+Sắp xếp từng nhóm con bằng cách sử dụng thuật toán sắp xếp chèn. 
+Giảm khoảng cách h để tạo ra các nhóm con mới. Lặp lại quá trình cho đến khi khoảng cách h giảm xuống 1.
+- Sắp xếp chèn nhị phân (Binary Insertion Sort): Giống thuật toán sắp xếp chèn, tuy nhiên lúc tìm phần tử trong đoạn a[1]…a[i–1] không tìm kiếm tuyến tính như bình thường mà sử dụng tìm kiếm nhị phân.
+
+NHÓM THUẬT TOÁN SẮP XẾP LỰA CHỌN
+
+Gồm 3 thuật toán
+
+- Sắp xếp chọn: Đã nêu bên trên
+- Sắp xếp nhanh (Quick Sort): Chọn ngẫu nhiên một phần tử a[j] làm phần tử biến (pivot). Phân hoạch dãy cần sắp xếp thành ba dãy con liên tiếp sao cho: dãy thứ nhất gồm các phần tử nhỏ hơn a[j], dãy thứ hai gồm các phần tử bằng a[j], dãy thứ ba gồm các phần tử lớn hơn a[j]. Sau đó lặp lại phân hoạch cho dãy thứ nhất và thứ ba nếu có nhiều hơn một phần tử.
+- Sắp xếp Heap (Heap Sort)
+THUẬT TOÁN SẮP XẾP TRỘN (MERGE SORT)
+Ý tưởng của thuật toán sắp xếp trộn là liên tục chia đôi mảng ban đầu. Chia liên tục sao cho mỗi mảng con chỉ còn 1 phần tử. Sau đó thực hiện trộn lại với nhau để thu được mảng đã sắp xếp.
+CÁC THUẬT TOÁN TÌM KIẾM
+
+Khóa tìm kiếm là giá trị cần tìm kiếm.
+
+THUẬT TOÁN TÌM KIẾM TUYẾN TÍNH
+Thuật toán tìm kiếm tuyến tính (Linear Search) sẽ quét từ đầu mảng đến cuối mảng, nếu bắt gặp phần tử cần tìm sẽ ngay lập tức trả về vị trí của phần tử đó trong mảng; hoặc thuật toán sẽ chạy đến cuối mảng nếu không thấy phần tử cần tìm.
+THUẬT TOÁN TÌM KIẾM NHỊ PHÂN
+
+Thuật toán tìm kiếm nhị phân (Binary Search) sẽ lấy phần tử ở giữa đoạn đang xét hiện tại để so sánh, nếu phần tử này là phần tử cần tìm thì trả về vị trí của nó trong mảng; nhưng nếu không phải thì thực hiện so sánh phần tử ở giữa này (gọi là Mid) với phần tử đang cần tìm (X):
+Nếu X > Mid: Bỏ toàn bộ đoạn nằm bên trái Mid, đoạn bên phải trở thành đoạn tìm kiếm mới
+Nếu X < Mid: Bỏ toàn bộ đoạn nằm bên phải Mid, đoạn bên trái trở thành đoạn tìm kiếm mới
+Quá trình này lặp lại cho đến khi đoạn đang xét chỉ còn một phần tử.
+THUẬT TOÁN TÌM KIẾM DỰA TRÊN GIÁ TRỊ KHÓA
+
+Thuật toán tìm kiếm dựa trên giá trị khóa: Bằng một quy tắc nào đó, ta biến đổi giá trị của khóa thành một địa chỉ tương đối dùng để lưu trữ bản ghi tương ứng, đồng thời cũng để tìm kiếm bản ghi ấy.
+
+THUẬT TOÁN TÌM KIẾM DỰA TRÊN BẢNG BĂM
+
+Giống thuật toán tìm kiếm dựa trên giá trị khóa, tuy nhiên vị trí của mỗi phần tử được xác định trực tiếp bằng một hàm đặc biệt gọi là hàm băm sao cho với đầu vào khác nhau thì cho ra đầu ra khác nhau, nhưng cùng một đầu vào thì luôn cho ra một kết quả duy nhất.
