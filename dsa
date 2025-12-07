@@ -171,38 +171,38 @@ Các nút được biểu diễn bởi một nhóm 4 ô, trong đó có 2 ô ph�
 CHƯƠNG CUỐI: TÌM KIẾM VÀ SẮP XẾP
 CÁC THUẬT TOÁN SẮP XẾP
 
-NHÓM THUẬT TOÁN SẮP XẾP ĐỔI CHỖ
+NHÓM THUẬT TOÁN SẮP XẾP ĐỔI CHỖ ( O(n^2))
 
 Gồm 3 thuật toán
 Sắp xếp nổi bọt (Bubble Sort): Thực hiện duyệt từ đầu đến cuối dãy cần sắp xếp. Nếu a[i] > a[i+1] thì đổi chỗ hai phần tử này cho nhau. Lặp lại quá trình này đến khi không còn xảy ra việc đổi chỗ hai phần tử.
 Sắp xếp chèn (Insertion Sort): Tại vị trí phần tử a[i] đang xét, ta lần lượt so sánh với các phần tử a[i–1] đến a[1], nếu tìm thấy vị trí thích hợp, ta chèn a[i] vào vị trí này.
 Sắp xếp chọn (Selection Sort): Tại phần tử a[i] đang xét, ta tìm ra phần tử nhỏ nhất trong đoạn từ a[i] đến a[n], sau đó đổi chỗ phần tử đó với a[i] đang xét.
 
-NHÓM THUẬT TOÁN SẮP XẾP XEN VÀO
+NHÓM THUẬT TOÁN SẮP XẾP XEN VÀO 
 
 Gồm 3 thuật toán
-- Sắp xếp chèn: Đã nêu bên trên
-- Sắp xếp giảm độ tăng (Shell Sort): Chọn một khoảng cách khởi tạo (h) và chia danh sách thành các nhóm con. 
+- Sắp xếp chèn: Đã nêu bên trên ( O(n^2))
+- Sắp xếp giảm độ tăng (Shell Sort): Chọn một khoảng cách khởi tạo (h) và chia danh sách thành các nhóm con. ( O(nlogn)) 
 Sắp xếp từng nhóm con bằng cách sử dụng thuật toán sắp xếp chèn. 
 Giảm khoảng cách h để tạo ra các nhóm con mới. Lặp lại quá trình cho đến khi khoảng cách h giảm xuống 1.
-- Sắp xếp chèn nhị phân (Binary Insertion Sort): Giống thuật toán sắp xếp chèn, tuy nhiên lúc tìm phần tử trong đoạn a[1]…a[i–1] không tìm kiếm tuyến tính như bình thường mà sử dụng tìm kiếm nhị phân.
+- Sắp xếp chèn nhị phân (Binary Insertion Sort) (O(nlogn)): Giống thuật toán sắp xếp chèn, tuy nhiên lúc tìm phần tử trong đoạn a[1]…a[i–1] không tìm kiếm tuyến tính như bình thường mà sử dụng tìm kiếm nhị phân.
 
 NHÓM THUẬT TOÁN SẮP XẾP LỰA CHỌN
 
 Gồm 3 thuật toán
 
-- Sắp xếp chọn: Đã nêu bên trên
-- Sắp xếp nhanh (Quick Sort): Chọn ngẫu nhiên một phần tử a[j] làm phần tử biến (pivot). Phân hoạch dãy cần sắp xếp thành ba dãy con liên tiếp sao cho: dãy thứ nhất gồm các phần tử nhỏ hơn a[j], dãy thứ hai gồm các phần tử bằng a[j], dãy thứ ba gồm các phần tử lớn hơn a[j]. Sau đó lặp lại phân hoạch cho dãy thứ nhất và thứ ba nếu có nhiều hơn một phần tử.
+- Sắp xếp chọn: Đã nêu bên trên độ phức tạp O(n^2)
+- Sắp xếp nhanh (Quick Sort độ phức tạp O(nlogn)): Chọn ngẫu nhiên một phần tử a[j] làm phần tử biến (pivot). Phân hoạch dãy cần sắp xếp thành ba dãy con liên tiếp sao cho: dãy thứ nhất gồm các phần tử nhỏ hơn a[j], dãy thứ hai gồm các phần tử bằng a[j], dãy thứ ba gồm các phần tử lớn hơn a[j]. Sau đó lặp lại phân hoạch cho dãy thứ nhất và thứ ba nếu có nhiều hơn một phần tử.
 - Sắp xếp Heap (Heap Sort)
-THUẬT TOÁN SẮP XẾP TRỘN (MERGE SORT)
+THUẬT TOÁN SẮP XẾP TRỘN (MERGE SORT) ( O(nlogn))
 Ý tưởng của thuật toán sắp xếp trộn là liên tục chia đôi mảng ban đầu. Chia liên tục sao cho mỗi mảng con chỉ còn 1 phần tử. Sau đó thực hiện trộn lại với nhau để thu được mảng đã sắp xếp.
 CÁC THUẬT TOÁN TÌM KIẾM
 
 Khóa tìm kiếm là giá trị cần tìm kiếm.
 
-THUẬT TOÁN TÌM KIẾM TUYẾN TÍNH
+THUẬT TOÁN TÌM KIẾM TUYẾN TÍNH ( O(n))
 Thuật toán tìm kiếm tuyến tính (Linear Search) sẽ quét từ đầu mảng đến cuối mảng, nếu bắt gặp phần tử cần tìm sẽ ngay lập tức trả về vị trí của phần tử đó trong mảng; hoặc thuật toán sẽ chạy đến cuối mảng nếu không thấy phần tử cần tìm.
-THUẬT TOÁN TÌM KIẾM NHỊ PHÂN
+THUẬT TOÁN TÌM KIẾM NHỊ PHÂN O( log(n))
 
 Thuật toán tìm kiếm nhị phân (Binary Search) sẽ lấy phần tử ở giữa đoạn đang xét hiện tại để so sánh, nếu phần tử này là phần tử cần tìm thì trả về vị trí của nó trong mảng; nhưng nếu không phải thì thực hiện so sánh phần tử ở giữa này (gọi là Mid) với phần tử đang cần tìm (X):
 Nếu X > Mid: Bỏ toàn bộ đoạn nằm bên trái Mid, đoạn bên phải trở thành đoạn tìm kiếm mới
