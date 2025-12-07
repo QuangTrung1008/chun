@@ -30,6 +30,12 @@ Có 03 phương pháp biểu diễn giải thuật:
 	Biểu diễn giải thuật bằng lời: Sử dụng các ngôn ngữ tự nhiên, gần gũi, thân thiện để trình bày giải thuật.
 	Biểu diễn giải thuật bằng sơ đồ khối: Sử dụng các hình khối với các quy ước đi kèm cho từng hình khối để biểu diễn các quy trình tính toán và mối liên hệ giữa các khối với nhau.  cho cái nhìn tổng thể về phương pháp giải bài toán
 	Biểu diễn giải thuật bằng ngôn ngữ lập trình: biểu diễn giải thuật 1 cách ngắn gọn
+Giáo trình:
+• Phương pháp diễn đạt giải thuật bằng lời giúp ta dễ nắm bắt tư tưởng chủ đạo của giải thuật nhưng còn ở mức độ trừu tượng cao, từ giải thuật đến chương trình cụ thể còn cần nhiều công đoạn làm “mịn” (chi tiết dần đến mức từng lệnh cụ thể).
+
+• Phương pháp sơ đồ khối cho ta một cái nhìn tổng quát về cấu trúc của một giải thuật nhưng đối với các giải thuật phức tạp về tính logic thì phương pháp này kém hiệu quả.
+
+• Phương pháp diễn đạt bằng một ngôn ngữ thuật toán cụ thể tuy phải tuân theo các quy định của ngôn ngữ đó nhưng việc lựa chọn một ngôn ngữ có cấu trúc tiền định đủ mạnh (như Pascal chẳng hạn) sẽ cho phép chúng ta biểu diễn các giải thuật một cách ngắn gọn, dễ dàng hình dung ra các công đoạn thiết kế giải thuật.
 ĐỘ PHỨC TẠP CỦA GIẢI THUẬT – KÝ PHÁP CHỮ O LỚN
 – Độ phức tạp của giải thuật được đánh giá bằng số phép tính mà giải thuật đó thực hiện.
 – Số phép tính mà một giải thuật thực hiện là một hàm T(n) bất kỳ.
