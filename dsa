@@ -1,65 +1,2047 @@
-* Bảng cân đối tiền tệ rút gọn NHTW
-Tài sản (Tài sản có): chứng khoán, tiền cho vay chiết khấu
-Nguồn vốn (tài sản nợ): Tiền lưu hành, Tiền dự trữ (MB = Cu + R)
-Bảng cân đối tài sản NHTM
-* Tài sản: Dự trữ (bắt buộc và vượt mức), Chứng khoán, Tiền gửi ở NHTM khác, Tiền cho vay (Max), Các tài sản khác
-Nguồn vốn: tiền gửi thanh toán, tiền gửi tiết kiệm (>50%), các khoản tiền vay, VCSH
-* Chế độ tiền tệ = Đơn vị tiền tệ + Hình thức lưu thông + Bản vị tiền tệ (Cơ sở định giá đồng tiền),
-gồm: Chế độ song bản vị, bản vị tiền vàng, bản vị vàng thỏi, bản vị vàng hối đoái, bản vị ngoại tệ, bản
-vị tiền giấy không chuyển đổi ra vàng.
-* Chế độ song bản vị:
-+ Tiền có giá trị thấp đẩy tiền có giá trị cao ra ngoài lưu thông
-*Chế độ bản vị tiền vàng:
-Bản vị tiền vàng là đồng tiền của một nước được bảo đảm bằng một trọng lượng vàng nhất định theo pháp luật. Những nhân tố cần thiết của bản vị tiền vàng gồm:
-Nhà nước không hạn chế việc đúc tiền vàng.
-Tiền giấy quốc gia được nhà nước xác định bằng một trọng lượng vàng nhất định và được tự do chuyển đổi ra vàng theo tỷ lệ đã được luật pháp quy định.
-Tiền vàng được lưu thông không hạn chế.
-*Chế độ bản vị tiền giấy không chuyển đổi ra vàng
-Dưới chế độ bản vị tiền giấy không được chuyển đổi ra vàng, đơn vị tiền tệ của một nước không thể tự do chuyển đổi kim loại quý. Đầu những năm 1930, bản vị chế độ tiền giấy không được tự do chuyển đổi ra vàng đã trở thành phổ biến. 
-Vàng chỉ được dùng để thanh toán các khoản nợ quốc tế, 
-nó bị rút khỏi lưu thông trong nước vì không dùng làm tiền tệ và không được đổi tiền giấy ra vàng.
-Từ đây, giá trị thực tế của đồng tiền các nước phụ thuộc vào sức mua của nó,
-tức là số lượng hàng hoá hay dịch vụ mà nó có thể mua được. Giá trị của một đơn vị tiền tệ được xác định bằng sức mua của nó và được đo bằng số nghịch đảo của mức giá cả chung. Như vậy, mức giá cả chung càng cao thì giá trị hay sức mua của một đơn vị tiền tệ càng thấp và ngược lại.
-* Công thức tính tỷ suất lợi nhuận R = (P bán - P mua + C)/ P mua. Lãi suất coupon tỷ lệ thuận với thị giá
-* Các yếu tố làm dịch chuyển cung vốn vay: thu nhập của cải, lợi nhuận kỳ vọng của trái phiếu, rủi ro của TP, tính thanh khoản, lạm phát
-* Các yếu tố làm dịch chuyển cầu vốn vay: khả năng sinh lời của cơ hội đầu tư, hoạt động của chính phủ khi thâm hụt, lạm phát.
-*Lạm phát do chi phí đẩy AS giảm trước -> Y'<Y tự nhiên -> TN > TN tự nhiên, lạm phát cầu kéo và quan điểm trg phái tiền tệ Y'?Y tự nhiên
-Câu nói
-   Tiền tệ
-   Mishkin = bất cứ gì chấp nhận chung
-    Marx = hàng đặc biệt, ngang giá
-Lãi
-    Marx = GT thặng dư trả tư bản
-      KTH cầu tài sản = cơ sở xác định OC
-       Ngân hàng = tỉ lệ lãi so vốn
-       KTH hiện đại = giá của cho vay
-Lạm phát
-     Marx = tràn đầy giấy bạc thừa
-     Samuelson = mức chung giá, chi phí tăng
-      Friedman = hiện tượng giá tăng
-    Mức giữ lại NSTW 100%
-Thuế GTGT xuất nhập khẩu
-Thuế xuất nhập khẩu, tiêu thụ đặc biệt nhập khẩu
-Thuế TNDN hạch toán toàn ngành
-Thuế/ thu dầu khí
-Viện trợ không hoàn lại nước ngoài
-    NSĐP 100%
-Thuế liên quan nhà đất
-Thuế môn bài
-Thuế tài nguyên (- dầu khí)
-Lệ phí trước bạ, xổ số
-Viện trợ trực tiếp địa phương
-    Chia %
-Thuế GTGT (- xuất nhập)
-Thuế TNDN (- toàn ngành)
-Thuế thu nhập cao
-Thuế chuyển lợi nhuận ra nước ngoài (- dầu khí)
-Thuế tiêu thụ đặc biệt trong nước
-Phí xăng dầu
+Bộ câu hỏi và đáp án Kinh tế Chính trị Mác - Lênin
 
-* Công thức tính tỷ giá: 1 + If = (1+Id) * (Et+1/Et)
-Ở việt nam chính sách tài khóa thường là mở rộng
-Lợi tức cổ phiếu ưu đãi thường cao hơn cổ phiếu thường
+TRANG PDF 2
 
-* Thu trong cân đối bao gồm: thuế, phí, lệ phí, thu và bán cho thuê các tài sản thuộc sở hữu nhà nước, lợi tức cổ phần 
-* Khối tiền tệ đo lường lượng tiền cung ứng
+Câu 8: Chọn đáp án đúng nhất. Sở hữu là:
+
+Đáp án: C) Quan hệ giữa người với người trong việc chiếm hữu của cải.
+
+Nguồn ảnh: trang PDF 2.
+
+Câu 9: Trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam, các hình thức sở hữu tồn tại trong trạng thái như thế nào?
+
+Đáp án: A) Tồn tại khách quan, chịu sự quản lý của Nhà nước bằng luật pháp và chính sách; tồn tại đan xen vào nhau và tác động qua lại lẫn nhau.
+
+Nguồn ảnh: trang PDF 2.
+
+Câu 10: Địa tô chênh lệch là:
+
+Đáp án: A) Địa tô thu được ở trên những ruộng đất có lợi thế về điều kiện canh tác.
+
+Nguồn ảnh: trang PDF 2.
+
+TRANG PDF 3
+
+Câu 11: Chọn đáp án đúng về hệ quả của tích lũy tư bản.
+
+Đáp án: C) Tích lũy tư bản tăng làm tăng cấu tạo hữu cơ của tư bản, tăng tích tụ và tập trung tư bản, tăng chênh lệch thu nhập giữa nhà tư bản và lao động.
+
+Nguồn ảnh: trang PDF 3.
+
+Câu 12: Cách mạng công nghiệp lần thứ ba:
+
+Đáp án: D) Bắt đầu từ những năm 60 của thế kỷ XX, kết thúc vào cuối thế kỷ XX.
+
+Nguồn ảnh: trang PDF 3.
+
+Câu 13: Hàng hóa là gì?
+
+Đáp án: C) Là sản phẩm của lao động, có thể thỏa mãn một nhu cầu nào đó của con người thông qua trao đổi, mua bán.
+
+Nguồn ảnh: trang PDF 3.
+
+TRANG PDF 4
+
+Câu 14: Trong nền kinh tế tri thức, tài nguyên quan trọng nhất của nền kinh tế là:
+
+Đáp án: D) Thông tin.
+
+Nguồn ảnh: trang PDF 4.
+
+Câu 15: Thuộc tính tự nhiên của hàng hóa sẽ quyết định?
+
+Đáp án: D) Giá trị sử dụng.
+
+Nguồn ảnh: trang PDF 4.
+
+Câu 16: Nếu ký hiệu chi phí sản xuất tư bản là K; tư bản bất biến là c; tư bản khả biến là v và giá trị thặng dư là m, thì kết cấu của chi phí sản xuất tư bản chủ nghĩa là?
+
+Đáp án: C) K = c + v.
+
+Nguồn ảnh: trang PDF 4.
+
+TRANG PDF 5
+
+Câu 17: Chọn phương án sai: Ý nghĩa lý luận của việc nghiên cứu tuần hoàn của tư bản là gì?
+
+Đáp án: A) Thấy rõ hơn giá trị thặng dư được tạo ra do mua rẻ, bán đắt.
+
+Nguồn ảnh: trang PDF 5.
+
+Ghi chú: Trong ảnh có dấu khoanh/sửa ở cả A và B; vòng khoanh cuối thể hiện ở A.
+
+Câu 18: Nguyên tắc kết hợp kế hoạch với thị trường có nghĩa là:
+
+Đáp án: D) Thị trường vừa là đối tượng, vừa là căn cứ của công tác kế hoạch hóa.
+
+Nguồn ảnh: trang PDF 5.
+
+Câu 19: Đặc trưng của cuộc cách mạng công nghiệp lần thứ ba là:
+
+Đáp án: C) Sử dụng công nghệ thông tin và tự động hóa.
+
+Nguồn ảnh: trang PDF 5.
+
+TRANG PDF 6
+
+Câu 20: Một trong những nội dung hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam là:
+
+Đáp án: D) Hoàn thiện thể chế bảo đảm gắn tăng trưởng kinh tế với bảo đảm tiến bộ và công bằng xã hội.
+
+Nguồn ảnh: trang PDF 6.
+
+Câu 21: Lựa chọn phương án sai: Để thu hồi nhanh giá trị của tư bản cố định thì các doanh nghiệp phải làm gì?
+
+Đáp án: B) Tăng thời gian lao động trong ngày.
+
+Nguồn ảnh: trang PDF 6.
+
+Câu 22: Chức năng thực tiễn của Kinh tế chính trị Mác - Lênin là:
+
+Đáp án: A) Cả 3 phương án trên.
+
+Nguồn ảnh: trang PDF 6.
+
+Câu 23: Tác dụng của quy luật giá trị? Chọn đáp án SAI.
+
+Đáp án: Không xác định từ phần ảnh này.
+
+Nguồn ảnh: trang PDF 6.
+
+Ghi chú: Phần đáp án bị cắt ở cuối ảnh; câu trùng xuất hiện đầy đủ ở trang 32.
+
+TRANG PDF 7
+
+Câu 26: Thời gian chu chuyển của tư bản bao gồm những thời gian nào?
+
+Đáp án: C) Thời gian sản xuất và thời gian lưu thông hàng hóa.
+
+Nguồn ảnh: trang PDF 7.
+
+Câu 27: Chọn đáp án đúng về cấu tạo giá trị của tư bản.
+
+Đáp án: A) Cấu tạo giá trị của tư bản là mối quan hệ tỷ lệ giữa tư bản bất biến và tư bản khả biến.
+
+Nguồn ảnh: trang PDF 7.
+
+Câu 28: Hãy chỉ ra phương án nào không nằm trong số những công cụ điều tiết vĩ mô của Nhà nước trong nền kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam.
+
+Đáp án: A) Giá cả thị trường.
+
+Nguồn ảnh: trang PDF 7.
+
+TRANG PDF 8
+
+Câu 29: Một trong những tác động tích cực của hội nhập kinh tế quốc tế là:
+
+Đáp án: C) Tạo động lực thúc đẩy chuyển dịch cơ cấu kinh tế theo hướng hợp lý, hiện đại và hiệu quả hơn.
+
+Nguồn ảnh: trang PDF 8.
+
+Câu 30: Một trong những đặc điểm của nền kinh tế tri thức là:
+
+Đáp án: C) Công nghệ thông tin được ứng dụng rộng rãi trong mọi lĩnh vực.
+
+Nguồn ảnh: trang PDF 8.
+
+Câu 31: Các giai đoạn phát triển của kinh tế thị trường đã trải qua bao gồm:
+
+Đáp án: A) Kinh tế thị trường sơ khai; kinh tế thị trường hiện đại có sự điều tiết của Nhà nước.
+
+Nguồn ảnh: trang PDF 8.
+
+TRANG PDF 9
+
+Câu 32: Giới hạn vận động của tư bản trong công thức chung của tư bản như thế nào?
+
+Đáp án: D) Là vận động không có giới hạn (vô hạn).
+
+Nguồn ảnh: trang PDF 9.
+
+Câu 33: Hãy chỉ ra phương án không đúng với vai trò của kinh tế tư nhân ở Việt Nam hiện nay.
+
+Đáp án: C) Định hướng xã hội chủ nghĩa cho sự vận động của nền kinh tế nhiều thành phần.
+
+Nguồn ảnh: trang PDF 9.
+
+Câu 34: Chọn phương án đúng.
+
+Đáp án: B) Mục tiêu của người sản xuất là tìm kiếm lợi nhuận.
+
+Nguồn ảnh: trang PDF 9.
+
+TRANG PDF 10
+
+Câu 35: Khi nào thì tiền mang hình thái là tư bản?
+
+Đáp án: C) Khi nó được sử dụng để bóc lột sức lao động của người khác.
+
+Nguồn ảnh: trang PDF 10.
+
+Câu 36: Kinh tế chính trị nghiên cứu:
+
+Đáp án: D) Những quan hệ xã hội giữa người với người trong sản xuất và trao đổi.
+
+Nguồn ảnh: trang PDF 10.
+
+Câu 37: Điền vào chỗ trống: “Lợi nhuận bình quân là lợi nhuận thu được theo … lợi nhuận bình quân”.
+
+Đáp án: B) Tỷ suất.
+
+Nguồn ảnh: trang PDF 10.
+
+TRANG PDF 11
+
+Câu 38: Chọn đáp án đúng về tác động tích cực của độc quyền đối với nền kinh tế.
+
+Đáp án: C) Thúc đẩy tiến bộ kỹ thuật; làm tăng năng suất lao động; góp phần thúc đẩy nền kinh tế phát triển theo hướng sản xuất lớn hiện đại.
+
+Nguồn ảnh: trang PDF 11.
+
+Câu 39: Đâu không thuộc đối tượng của sở hữu nhà nước trong giai đoạn chủ nghĩa tư bản độc quyền nhà nước?
+
+Đáp án: Không xác định từ phần ảnh này.
+
+Nguồn ảnh: trang PDF 11.
+
+Ghi chú: Câu hỏi bắt đầu ở cuối trang; đáp án nằm ở trang 12.
+
+TRANG PDF 12
+
+Câu 39: Đâu không thuộc đối tượng của sở hữu nhà nước trong giai đoạn chủ nghĩa tư bản độc quyền nhà nước?
+
+Đáp án: B) Những tài sản thuộc sở hữu tư nhân.
+
+Nguồn ảnh: trang PDF 12.
+
+Câu 40: Tác dụng điều tiết sản xuất và lưu thông của quy luật giá trị có nghĩa là thế nào? Chọn đáp án SAI.
+
+Đáp án: C) Hàng hóa trên thị trường được di chuyển từ nơi giá cả cao đến nơi giá cả thấp.
+
+Nguồn ảnh: trang PDF 12.
+
+Câu 41: Tóm tắt đặc trưng của cuộc cách mạng công nghiệp lần thứ nhất là:
+
+Đáp án: D) Sử dụng năng lượng nước và hơi nước để cơ khí hóa sản xuất.
+
+Nguồn ảnh: trang PDF 12.
+
+TRANG PDF 13
+
+Câu 70: Thể chế kinh tế là:
+
+Đáp án: C) Là hệ thống quy tắc, luật pháp, bộ máy quản lý và cơ chế vận hành nhằm điều chỉnh hành vi của các chủ thể kinh tế, các hành vi sản xuất kinh doanh và các quan hệ kinh tế.
+
+Nguồn ảnh: trang PDF 13.
+
+Câu 71: Các cuộc cách mạng công nghiệp đã làm thay đổi:
+
+Đáp án: C) Tư liệu lao động, đối tượng lao động và trình độ nhân lực.
+
+Nguồn ảnh: trang PDF 13.
+
+Ghi chú: Bên cạnh đáp án có dấu hỏi viết tay.
+
+Câu 72: Điền vào chỗ trống để có khái niệm đúng: “(...) là quá trình chuyển đổi nền sản xuất xã hội từ dựa trên lao động thủ công là chính sang nền sản xuất xã hội dựa chủ yếu trên lao động bằng máy móc nhằm tạo ra năng suất lao động xã hội cao”.
+
+Đáp án: Không xác định từ phần ảnh này.
+
+Nguồn ảnh: trang PDF 13.
+
+Ghi chú: Câu tiếp tục và có đáp án ở trang 18.
+
+TRANG PDF 14
+
+Câu 42: Vai trò của cách mạng công nghiệp đối với phát triển là:
+
+Đáp án: D) Tất cả các đáp án đều đúng.
+
+Nguồn ảnh: trang PDF 14.
+
+Câu 43: Lượng giá trị hàng hóa nhiều hay ít, cao hay thấp, được xác định như thế nào?
+
+Đáp án: B) Thời gian lao động xã hội cần thiết.
+
+Nguồn ảnh: trang PDF 14.
+
+Câu 44: Giá cả sản xuất là hình thái chuyển hóa của giá trị hàng hóa trong giai đoạn nào?
+
+Đáp án: C) Cạnh tranh tự do của chủ nghĩa tư bản.
+
+Nguồn ảnh: trang PDF 14.
+
+TRANG PDF 15
+
+Câu 75: Thế nào là lao động cụ thể?
+
+Đáp án: C) Là những lao động lành nghề, có thao tác riêng, đối tượng riêng, mục đích riêng và kết quả riêng.
+
+Nguồn ảnh: trang PDF 15.
+
+Câu 76: Hình thức xuất khẩu tư bản trong chủ nghĩa tư bản ngày nay chủ yếu là:
+
+Đáp án: B) Xuất khẩu tư bản kết hợp với xuất khẩu hàng hóa.
+
+Nguồn ảnh: trang PDF 15.
+
+Câu 77: Căn cứ vào tính chất và cơ chế vận hành của thị trường, người ta có thể chia thị trường thành:
+
+Đáp án: Thị trường tự do; thị trường có điều tiết; thị trường cạnh tranh hoàn hảo và thị trường cạnh tranh không hoàn hảo.
+
+Nguồn ảnh: trang PDF 15.
+
+Ghi chú: Đáp án được gõ/chèn màu đỏ trong ảnh, không phải vòng khoanh.
+
+TRANG PDF 16
+
+Câu 61: Một trong những tác động tiêu cực của hội nhập kinh tế quốc tế là:
+
+Đáp án: D) Làm tăng khoảng cách giàu nghèo và bất bình đẳng xã hội.
+
+Nguồn ảnh: trang PDF 16.
+
+Câu 62: Chọn đáp án đúng: Tích tụ tư bản là:
+
+Đáp án: C) Là quá trình tư bản hóa giá trị thặng dư.
+
+Nguồn ảnh: trang PDF 16.
+
+Câu 63: Chỉ ra phương án sai: Trong phương pháp sản xuất giá trị thặng dư tuyệt đối, thời gian thay đổi như thế nào?
+
+Đáp án: A) Kéo dài thời gian lao động trong ngày.
+
+Nguồn ảnh: trang PDF 16.
+
+Câu 64: Chọn đáp án đúng. Giá cả độc quyền gồm:
+
+Đáp án: C) Chi phí sản xuất (k) cộng với lợi nhuận độc quyền.
+
+Nguồn ảnh: trang PDF 16.
+
+TRANG PDF 17
+
+Câu 65: Lựa chọn phương án đúng nhất: Kinh tế nhà nước là:
+
+Đáp án: A) Là thành phần kinh tế dựa trên chế độ sở hữu công cộng về tư liệu sản xuất (sở hữu toàn dân và sở hữu nhà nước), bao gồm các doanh nghiệp nhà nước và các tài sản thuộc sở hữu nhà nước có thể đưa vào vòng chu chuyển kinh tế.
+
+Nguồn ảnh: trang PDF 17.
+
+Câu 66: Trong hệ thống cơ cấu kinh tế thì cơ cấu nào giữ vai trò quan trọng nhất?
+
+Đáp án: D) Cơ cấu ngành kinh tế.
+
+Nguồn ảnh: trang PDF 17.
+
+Câu 67: Nhà nước xã hội chủ nghĩa ở Việt Nam quản lý nền kinh tế thị trường định hướng xã hội chủ nghĩa theo nguyên tắc nào?
+
+Đáp án: Không xác định từ phần ảnh này.
+
+Nguồn ảnh: trang PDF 17.
+
+Ghi chú: Đáp án xuất hiện ở trang 23.
+
+TRANG PDF 18
+
+Câu 72: Điền vào chỗ trống để có khái niệm đúng: “(...) là quá trình chuyển đổi nền sản xuất xã hội từ dựa trên lao động thủ công là chính sang nền sản xuất xã hội dựa chủ yếu trên lao động bằng máy móc nhằm tạo ra năng suất lao động xã hội cao”.
+
+Đáp án: C) Công nghiệp hóa, hiện đại hóa.
+
+Nguồn ảnh: trang PDF 18.
+
+Câu 73: Nguồn gốc của giá trị thặng dư do đâu tạo ra?
+
+Đáp án: A) Sức lao động của công nhân làm thuê tạo ra.
+
+Nguồn ảnh: trang PDF 18.
+
+Câu 74: Khác nhau giữa phương pháp sản xuất giá trị thặng dư tuyệt đối và tương đối không phải là phương án nào dưới đây?
+
+Đáp án: A) Phương pháp tuyệt đối kéo dài thời gian lao động cần thiết, còn phương pháp tương đối giữ nguyên.
+
+Nguồn ảnh: trang PDF 18.
+
+TRANG PDF 19
+
+Câu 78: Hãy lựa chọn phương án thuộc về đặc trưng bản chất của nền kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam.
+
+Đáp án: A) Đi đôi với việc phát triển lực lượng sản xuất hiện đại thì phải xây dựng quan hệ sản xuất tiến bộ, phù hợp.
+
+Nguồn ảnh: trang PDF 19.
+
+Câu 79: Trong chủ nghĩa tư bản ngày nay, các tập đoàn tư bản tài chính thường tồn tại dưới dạng:
+
+Đáp án: A) Công - nông - thương - tín - dịch vụ, hay công nghiệp - quân sự - dịch vụ quốc phòng.
+
+Nguồn ảnh: trang PDF 19.
+
+Câu 80: Tỷ suất lợi nhuận bình quân và lợi nhuận bình quân được hình thành trong quá trình:
+
+Đáp án: D) Cạnh tranh giữa các ngành.
+
+Nguồn ảnh: trang PDF 19.
+
+TRANG PDF 20
+
+Câu 59: Một trong những tác động tiêu cực của hội nhập kinh tế quốc tế là:
+
+Đáp án: A) Làm tăng nguy cơ tình trạng khủng bố quốc tế, buôn lậu, tội phạm xuyên quốc gia, bệnh dịch.
+
+Nguồn ảnh: trang PDF 20.
+
+Câu 60: Nguồn gốc của sự giàu có của xã hội là:
+
+Đáp án: C) Lao động sản xuất ra của cải vật chất.
+
+Nguồn ảnh: trang PDF 20.
+
+Câu 61: Một trong những tác động tiêu cực của hội nhập kinh tế quốc tế là:
+
+Đáp án: D) Làm tăng khoảng cách giàu nghèo và bất bình đẳng xã hội.
+
+Nguồn ảnh: trang PDF 20.
+
+TRANG PDF 21
+
+Câu 48: Chọn câu trả lời đúng: Đối tượng nghiên cứu của Kinh tế chính trị:
+
+Đáp án: D) Có đối tượng nghiên cứu chung qua mỗi giai đoạn phát triển của lịch sử.
+
+Nguồn ảnh: trang PDF 21.
+
+Câu 49: Cho biết, trong số các nhân tố sau đây, nhân tố nào không ảnh hưởng trực tiếp đến tỷ suất lợi tức?
+
+Đáp án: B) Trình độ phân công lao động xã hội.
+
+Nguồn ảnh: trang PDF 21.
+
+Câu 50: Các bộ phận cơ bản của thể chế kinh tế bao gồm:
+
+Đáp án: B) Hệ thống pháp luật về kinh tế của Nhà nước và các quy tắc xã hội được Nhà nước thừa nhận; hệ thống các chủ thể thực hiện các hoạt động kinh tế; các cơ chế, phương pháp, thủ tục thực hiện các quy định và vận hành nền kinh tế.
+
+Nguồn ảnh: trang PDF 21.
+
+TRANG PDF 22
+
+Câu 54: Đâu KHÔNG phải là khuyết tật của nền kinh tế thị trường?
+
+Đáp án: D) Phân bố nguồn lực sản xuất hiệu quả.
+
+Nguồn ảnh: trang PDF 22.
+
+Câu 55: Bản chất của chủ nghĩa tư bản độc quyền nhà nước là:
+
+Đáp án: C) Sự kết hợp giữa tổ chức độc quyền tư nhân và Nhà nước tư sản.
+
+Nguồn ảnh: trang PDF 22.
+
+Câu 56: Lựa chọn phương án đúng nhất trong các phương án dưới đây.
+
+Đáp án: Không xác định từ phần ảnh này.
+
+Nguồn ảnh: trang PDF 22.
+
+Ghi chú: Câu hỏi và đáp án bị cắt ở cuối trang.
+
+TRANG PDF 23
+
+Câu 67: Nhà nước xã hội chủ nghĩa ở Việt Nam quản lý nền kinh tế thị trường định hướng xã hội chủ nghĩa theo nguyên tắc:
+
+Đáp án: B) Kết hợp kế hoạch với thị trường.
+
+Nguồn ảnh: trang PDF 23.
+
+Câu 68: Chọn phương án đúng về quan hệ giữa năng suất lao động và lượng giá trị của một đơn vị hàng hóa.
+
+Đáp án: B) Năng suất lao động tăng, lượng giá trị của một đơn vị hàng hóa giảm.
+
+Nguồn ảnh: trang PDF 23.
+
+Câu 69: Hình thức tổ chức độc quyền nào sau đây chưa xuất hiện trong giai đoạn cuối thế kỷ XIX, đầu thế kỷ XX?
+
+Đáp án: A) Concern và Conglomerate.
+
+Nguồn ảnh: trang PDF 23.
+
+Câu 70: Thể chế kinh tế là:
+
+Đáp án: C) Là hệ thống quy tắc, luật pháp, bộ máy quản lý và cơ chế vận hành nhằm điều chỉnh hành vi của các chủ thể kinh tế, các hành vi sản xuất kinh doanh và các quan hệ kinh tế.
+
+Nguồn ảnh: trang PDF 23.
+
+Ghi chú: Dòng đáp án bị cắt ở cuối ảnh; nội dung được hoàn chỉnh từ câu trùng ở trang 13.
+
+TRANG PDF 24
+
+Câu 45: Tìm phương án không đúng trong giai đoạn hiện đại.
+
+Đáp án: A) Những cuộc chiến tranh thương mại, những cuộc chiến tranh sắc tộc, tôn giáo.
+
+Nguồn ảnh: trang PDF 24.
+
+Ghi chú: Ảnh có dấu sửa từ B sang A; dùng vòng khoanh cuối ở A.
+
+Câu 46: Ai là người đầu tiên phát hiện ra tính hai mặt của lao động sản xuất hàng hóa là lao động cụ thể và lao động trừu tượng?
+
+Đáp án: C) C. Mác.
+
+Nguồn ảnh: trang PDF 24.
+
+Câu 47: Tìm phương án không đúng: Đến cuối thế kỷ XIX, đầu thế kỷ XX:
+
+Đáp án: A) Số dân thuộc địa của Anh nhiều hơn 12 lần số dân thuộc địa của Nga và bằng 7 lần của Đức.
+
+Nguồn ảnh: trang PDF 24.
+
+TRANG PDF 25
+
+Câu 51: Tìm phương án không đúng: Do sự phân chia lãnh thổ và phát triển không đều của các cường quốc tư bản:
+
+Đáp án: D) Dẫn đến cuộc Chiến tranh thế giới lần thứ nhất (1914 - 1918).
+
+Nguồn ảnh: trang PDF 25.
+
+Câu 52: Lao động nào tạo ra giá trị hàng hóa?
+
+Đáp án: D) Lao động trừu tượng.
+
+Nguồn ảnh: trang PDF 25.
+
+Câu 53: Thực chất sự phân chia thế giới về kinh tế giữa các tổ chức độc quyền là:
+
+Đáp án: C) Xu hướng quốc tế hóa, toàn cầu hóa kinh tế ngày càng tăng.
+
+Nguồn ảnh: trang PDF 25.
+
+Câu 54: Đâu KHÔNG phải là khuyết tật của nền kinh tế thị trường?
+
+Đáp án: Không xác định từ phần ảnh này.
+
+Nguồn ảnh: trang PDF 25.
+
+Ghi chú: Câu hỏi bắt đầu ở cuối trang và được trình bày đầy đủ ở trang 22.
+
+TRANG PDF 26
+
+Câu 56: Trình độ phát triển nền kinh tế thị trường ở Việt Nam còn sơ khai, thể hiện ở đặc điểm nào sau đây?
+
+Đáp án: A) Cơ sở vật chất - kỹ thuật còn ở trình độ thấp, kết cấu hạ tầng lạc hậu và kém phát triển; phân công lao động kém phát triển, chuyển dịch cơ cấu kinh tế còn chậm; khả năng cạnh tranh của các doanh nghiệp Việt Nam trên thị trường trong nước và quốc tế còn thấp.
+
+Nguồn ảnh: trang PDF 26.
+
+Câu 57: Theo quan điểm của Đảng Cộng sản Việt Nam, (...) là quá trình chuyển đổi căn bản, toàn diện các hoạt động sản xuất kinh doanh, dịch vụ và quản lý kinh tế - xã hội từ sử dụng sức lao động thủ công là chính sang sử dụng một cách phổ biến sức lao động với công nghệ, phương tiện, phương pháp tiên tiến hiện đại dựa trên sự phát triển của công nghiệp và tiến bộ khoa học công nghệ, nhằm tạo ra năng suất lao động xã hội cao.
+
+Đáp án: A) Công nghiệp hóa, hiện đại hóa.
+
+Nguồn ảnh: trang PDF 26.
+
+Câu 58: Ngày lao động của công nhân được chia thành hai phần là những phần nào?
+
+Đáp án: A) Thời gian lao động xã hội cần thiết và thời gian lao động thặng dư.
+
+Nguồn ảnh: trang PDF 26.
+
+TRANG PDF 27
+
+Câu 75: Một trong những tác động tiêu cực của hội nhập kinh tế quốc tế là:
+
+Đáp án: B) Làm tăng nguy cơ tình trạng khủng bố quốc tế, buôn lậu, tội phạm xuyên quốc gia, bệnh dịch.
+
+Nguồn ảnh: trang PDF 27.
+
+Câu 76: Chọn đáp án đúng. Các nhân tố ảnh hưởng tới quy mô tích lũy là:
+
+Đáp án: C) Tỷ suất giá trị thặng dư, năng suất lao động, tư bản ứng trước, sử dụng hiệu quả máy móc.
+
+Nguồn ảnh: trang PDF 27.
+
+Câu 77: Nguyên tắc kết hợp kế hoạch với thị trường có nghĩa là:
+
+Đáp án: A) Thị trường vừa là đối tượng, vừa là căn cứ của công tác kế hoạch hóa.
+
+Nguồn ảnh: trang PDF 27.
+
+Câu 78: Các cuộc cách mạng công nghiệp đã làm cho:
+
+Đáp án: A) Các yếu tố đầu vào của sản xuất đã thay đổi căn bản.
+
+Nguồn ảnh: trang PDF 27.
+
+TRANG PDF 28
+
+Câu 44: Một trong những quan điểm về công nghiệp hóa, hiện đại hóa ở Việt Nam trong bối cảnh cách mạng công nghiệp lần thứ tư là:
+
+Đáp án: D) Chủ động chuẩn bị các điều kiện cần thiết, giải phóng mọi nguồn lực.
+
+Nguồn ảnh: trang PDF 28.
+
+Câu 45: Hãy chọn phương án diễn đạt đúng về địa tô tư bản chủ nghĩa.
+
+Đáp án: A) Địa tô tư bản chủ nghĩa là một phần của lợi nhuận bình quân mà nhà tư bản kinh doanh nông nghiệp nộp cho địa chủ.
+
+Nguồn ảnh: trang PDF 28.
+
+Câu 46: Trong quan niệm về chủ nghĩa đế quốc, V.I. Lênin KHÔNG bàn tới vấn đề nào?
+
+Đáp án: B) Giá trị lao động.
+
+Nguồn ảnh: trang PDF 28.
+
+Câu 47: Một trong những đặc điểm của nền kinh tế tri thức là:
+
+Đáp án: B) Các ngành kinh tế dựa vào tri thức ngày càng tăng và chiếm đa số.
+
+Nguồn ảnh: trang PDF 28.
+
+TRANG PDF 29
+
+Câu 62: Vai trò của các chủ thể trung gian trong thị trường?
+
+Đáp án: D) Tất cả các đáp án đều đúng.
+
+Nguồn ảnh: trang PDF 29.
+
+Câu 63: Nhiệm vụ giai đoạn 3 (bán) trong quá trình tuần hoàn của tư bản là gì?
+
+Đáp án: C) Chuẩn bị cho quá trình tiêu dùng giá trị thặng dư.
+
+Nguồn ảnh: trang PDF 29.
+
+Câu 64: Hãy chọn phương án diễn đạt sai về địa tô chênh lệch.
+
+Đáp án: B) Địa tô chênh lệch II là địa tô thu được trên những ruộng đất có độ màu mỡ tự nhiên tốt hơn, có lợi thế về vị trí địa lý và điều kiện tự nhiên.
+
+Nguồn ảnh: trang PDF 29.
+
+Ghi chú: Ảnh có dấu ở khu vực B/C; vòng khoanh rõ hơn ở B.
+
+Câu 65: Một trong những yêu cầu của cơ cấu kinh tế hợp lý, hiện đại và hiệu quả là:
+
+Đáp án: B) Khai thác, phân bố và phát huy hiệu quả các nguồn lực trong nước, thu hút hữu hiệu các nguồn lực bên ngoài.
+
+Nguồn ảnh: trang PDF 29.
+
+TRANG PDF 30
+
+Câu 40: Chủ nghĩa tư bản độc quyền ra đời là do:
+
+Đáp án: D) Các phương án nêu ra đều đúng.
+
+Nguồn ảnh: trang PDF 30.
+
+Câu 41: Điền thuật ngữ thích hợp vào chỗ trống: “... đẻ ra tập trung sản xuất và sự tập trung sản xuất này, khi phát triển đến mức độ nhất định, lại dẫn tới độc quyền”.
+
+Đáp án: B) Tự do cạnh tranh.
+
+Nguồn ảnh: trang PDF 30.
+
+Câu 42: Nếu hàng hóa có giá trị bằng 80c + 20v + 30m thì giá trị mới là bao nhiêu?
+
+Đáp án: D) Bộ phận giá trị mới = 50.
+
+Nguồn ảnh: trang PDF 30.
+
+Câu 43: Hao mòn vô hình của tư bản cố định là gì?
+
+Đáp án: B) Là hao mòn thuần túy về giá trị.
+
+Nguồn ảnh: trang PDF 30.
+
+TRANG PDF 31
+
+Câu 36: Ai là người đầu tiên phát hiện ra tính hai mặt của lao động sản xuất hàng hóa là lao động cụ thể và lao động trừu tượng?
+
+Đáp án: C) C. Mác.
+
+Nguồn ảnh: trang PDF 31.
+
+Câu 37: Chọn đáp án đúng về giá trị của hàng hóa.
+
+Đáp án: C) Là lao động của người sản xuất hàng hóa kết tinh trong hàng hóa.
+
+Nguồn ảnh: trang PDF 31.
+
+Câu 38: Một đặc trưng bản chất của nền kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam là:
+
+Đáp án: B) Là phương thức để phát triển lực lượng sản xuất, xây dựng cơ sở vật chất - kỹ thuật của chủ nghĩa xã hội; nâng cao đời sống nhân dân, thực hiện dân giàu, nước mạnh, dân chủ, công bằng, văn minh.
+
+Nguồn ảnh: trang PDF 31.
+
+Câu 39: Những hình thức tổ chức độc quyền từ thấp đến cao cuối thế kỷ XIX, đầu thế kỷ XX bao gồm:
+
+Đáp án: B) Cartel (Cácten), Syndicate (Xanhđica), Trust (Tơrớt), Consortium (Côngxoócxiom).
+
+Nguồn ảnh: trang PDF 31.
+
+TRANG PDF 32
+
+Câu 71: Biểu hiện mới của chủ nghĩa tư bản độc quyền nhà nước là:
+
+Đáp án: D) Tỷ trọng kinh tế nhà nước trong nền kinh tế tư bản chủ nghĩa tăng lên; sự kết hợp giữa kinh tế nhà nước và kinh tế tư nhân tăng lên; chi tiêu tài chính của các nhà nước tư bản phát triển để điều tiết kinh tế tăng lên.
+
+Nguồn ảnh: trang PDF 32.
+
+Câu 72: Tìm phương án không đúng về mối quan hệ giữa cạnh tranh và độc quyền.
+
+Đáp án: B) Độc quyền sinh ra từ cạnh tranh.
+
+Nguồn ảnh: trang PDF 32.
+
+Ghi chú: Dấu khoanh ở trang này chọn B; câu trùng ở trang 65 lại chọn C, nên tài liệu không thống nhất.
+
+Câu 73: Một trong những nội dung hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam là:
+
+Đáp án: A) Hoàn thiện thể chế thúc đẩy hội nhập kinh tế quốc tế.
+
+Nguồn ảnh: trang PDF 32.
+
+Câu 74: Tác dụng của quy luật giá trị? Chọn đáp án SAI.
+
+Đáp án: B) Khắc phục được khủng hoảng kinh tế.
+
+Nguồn ảnh: trang PDF 32.
+
+TRANG PDF 33
+
+Câu 53: Trong nông nghiệp tư bản chủ nghĩa, chủ thể nộp địa tô cho địa chủ là ai?
+
+Đáp án: B) Nhà tư bản kinh doanh nông nghiệp.
+
+Nguồn ảnh: trang PDF 33.
+
+Câu 54: Lao động nào tạo ra giá trị hàng hóa?
+
+Đáp án: D) Lao động trừu tượng.
+
+Nguồn ảnh: trang PDF 33.
+
+Câu 55: Chọn đáp án đúng. Bản chất của tích lũy tư bản là:
+
+Đáp án: B) Là tư bản hóa giá trị thặng dư.
+
+Nguồn ảnh: trang PDF 33.
+
+Câu 56: Thời gian lao động thặng dư là gì?
+
+Đáp án: D) Thời gian lao động mà người công nhân tạo ra giá trị ngang bằng với giá trị thặng dư.
+
+Nguồn ảnh: trang PDF 33.
+
+Câu 57: Những phát minh quan trọng tạo tiền đề cho cách mạng công nghiệp lần thứ nhất là:
+
+Đáp án: B) Phát minh ra máy móc trong ngành dệt.
+
+Nguồn ảnh: trang PDF 33.
+
+Câu 58: Chọn đáp án SAI: Hàng hóa sức lao động và hàng hóa thông thường giống nhau ở điểm nào?
+
+Đáp án: Không xác định từ phần ảnh này.
+
+Nguồn ảnh: trang PDF 33.
+
+Ghi chú: Câu hỏi tiếp tục ở trang 36.
+
+TRANG PDF 34
+
+Câu 77: Nguyên tắc kết hợp kế hoạch với thị trường có nghĩa là:
+
+Đáp án: A) Thị trường vừa là đối tượng, vừa là căn cứ của công tác kế hoạch hóa.
+
+Nguồn ảnh: trang PDF 34.
+
+Câu 78: Các cuộc cách mạng công nghiệp đã làm cho:
+
+Đáp án: A) Các yếu tố đầu vào của sản xuất đã thay đổi căn bản.
+
+Nguồn ảnh: trang PDF 34.
+
+Câu 79: Những hạn chế của chủ nghĩa tư bản bắt nguồn từ nguyên nhân:
+
+Đáp án: D) Mâu thuẫn giữa trình độ xã hội hóa cao của lực lượng sản xuất với quan hệ sở hữu tư nhân tư bản chủ nghĩa về tư liệu sản xuất.
+
+Nguồn ảnh: trang PDF 34.
+
+Câu 80: Chọn phương án đúng về vai trò của người tiêu dùng.
+
+Đáp án: D) Tất cả các đáp án đều đúng.
+
+Nguồn ảnh: trang PDF 34.
+
+TRANG PDF 35
+
+Câu 66: Cách mạng công nghiệp lần thứ nhất:
+
+Đáp án: D) Bắt đầu từ nước Anh.
+
+Nguồn ảnh: trang PDF 35.
+
+Câu 67: Vai trò của cách mạng công nghiệp đối với phát triển là:
+
+Đáp án: D) Tất cả các đáp án đều đúng.
+
+Nguồn ảnh: trang PDF 35.
+
+Câu 68: Nước đầu tiên vận dụng cách mạng công nghiệp lần thứ tư trong “Kế hoạch hành động chiến lược công nghệ cao” là:
+
+Đáp án: A) Đức.
+
+Nguồn ảnh: trang PDF 35.
+
+Câu 69: Mục đích nghiên cứu của Kinh tế chính trị Mác - Lênin là:
+
+Đáp án: A) Tìm ra các quy luật kinh tế chi phối các quan hệ giữa người với người trong sản xuất và trao đổi.
+
+Nguồn ảnh: trang PDF 35.
+
+Câu 70: Thế nào là tỷ suất giá trị thặng dư?
+
+Đáp án: B) Là tỷ lệ phần trăm giữa giá trị thặng dư và tư bản khả biến cần thiết để tạo ra giá trị thặng dư đó.
+
+Nguồn ảnh: trang PDF 35.
+
+TRANG PDF 36
+
+Câu 58: Chọn đáp án SAI: Hàng hóa sức lao động và hàng hóa thông thường giống nhau ở điểm nào?
+
+Đáp án: A) Đều mang yếu tố tinh thần và lịch sử.
+
+Nguồn ảnh: trang PDF 36.
+
+Câu 59: Vai trò của công nghiệp hóa, hiện đại hóa đối với Việt Nam là:
+
+Đáp án: C) Góp phần hoàn thiện quan hệ sản xuất.
+
+Nguồn ảnh: trang PDF 36.
+
+Câu 60: Một trong những tác động tích cực của hội nhập kinh tế quốc tế là:
+
+Đáp án: B) Tạo động lực thúc đẩy chuyển dịch cơ cấu kinh tế theo hướng hợp lý, hiện đại và hiệu quả hơn.
+
+Nguồn ảnh: trang PDF 36.
+
+Câu 61: Thể chế kinh tế thị trường định hướng xã hội chủ nghĩa là:
+
+Đáp án: A) Là hệ thống đường lối, chủ trương chiến lược; hệ thống luật pháp, chính sách quy định, xác lập cơ chế vận hành, điều chỉnh chức năng, hoạt động, mục tiêu, phương thức hoạt động và các quan hệ lợi ích của các tổ chức, các chủ thể kinh tế; hướng tới xác lập đồng bộ các yếu tố thị trường, các loại thị trường hiện đại, góp phần thúc đẩy dân giàu, nước mạnh, dân chủ, công bằng, văn minh.
+
+Nguồn ảnh: trang PDF 36.
+
+Ghi chú: Dòng chữ trong ảnh nhỏ và dài; đã chuẩn hóa dấu câu nhưng giữ nguyên ý của phương án được đánh dấu.
+
+TRANG PDF 37
+
+Câu 48: Chọn đáp án đúng nhất. Sở hữu là:
+
+Đáp án: D) Quan hệ giữa người với người trong việc chiếm hữu của cải vật chất.
+
+Nguồn ảnh: trang PDF 37.
+
+Câu 49: Vai trò kinh tế của Nhà nước trong nền kinh tế thị trường?
+
+Đáp án: C) Thực hiện chức năng quản lý nhà nước về kinh tế và thực hiện những biện pháp để khắc phục khuyết tật của thị trường.
+
+Nguồn ảnh: trang PDF 37.
+
+Câu 50: Nếu hàng hóa có giá trị bằng 80c + 20v + 30m thì giá trị cũ là bao nhiêu?
+
+Đáp án: A) Bộ phận giá trị cũ = 80.
+
+Nguồn ảnh: trang PDF 37.
+
+Câu 51: Có ba nhân tố quy định tính tất yếu khách quan của phát triển kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam. Nhân tố thứ nhất là:
+
+Đáp án: D) Phát triển kinh tế thị trường định hướng xã hội chủ nghĩa là phù hợp với tính quy luật phát triển khách quan.
+
+Nguồn ảnh: trang PDF 37.
+
+Câu 52: Chọn đáp án SAI về thị trường.
+
+Đáp án: C) Thị trường biểu hiện dưới hình thái: chợ, cửa hàng, siêu thị...
+
+Nguồn ảnh: trang PDF 37.
+
+Ghi chú: Ảnh có nhiều dấu đánh ở A và C; câu trùng rõ hơn tại trang 54 chọn C.
+
+TRANG PDF 38
+
+Câu 31: Chọn câu trả lời đúng nhất về mối quan hệ giữa chính sách kinh tế và quy luật kinh tế.
+
+Đáp án: D) Chính sách kinh tế phải phù hợp với quy luật kinh tế.
+
+Nguồn ảnh: trang PDF 38.
+
+Ghi chú: Ảnh có vòng khoanh ở cả C và D; D được gạch chân và thể hiện là lựa chọn cuối.
+
+Câu 32: Trên thị trường, các quan hệ kinh tế và yếu tố kinh tế như cung, cầu, giá cả, quan hệ hàng hóa - tiền tệ, người bán - người mua... vận động theo các quy luật của:
+
+Đáp án: C) Thị trường.
+
+Nguồn ảnh: trang PDF 38.
+
+Câu 33: Trong các hình thức của các tổ chức độc quyền sau, hình thức nào tồn tại trong chủ nghĩa tư bản ngày nay?
+
+Đáp án: D) Concern và Conglomerate.
+
+Nguồn ảnh: trang PDF 38.
+
+Câu 34: Yêu cầu của quy luật giá trị trong nền kinh tế thị trường?
+
+Đáp án: B) Quá trình sản xuất và lưu thông hàng hóa phải được tiến hành trên cơ sở hao phí lao động xã hội cần thiết.
+
+Nguồn ảnh: trang PDF 38.
+
+Câu 35: Lựa chọn phương án đúng nhất: Kinh tế nhà nước là:
+
+Đáp án: Không xác định từ phần ảnh này.
+
+Nguồn ảnh: trang PDF 38.
+
+Ghi chú: Chỉ thấy câu hỏi và phương án A; phần còn lại bị cắt.
+
+TRANG PDF 39
+
+Câu 24: Hãy chọn phương án diễn đạt sai về chi phí sản xuất tư bản chủ nghĩa.
+
+Đáp án: B) Chi phí sản xuất tư bản chủ nghĩa tạo ra giá trị thặng dư.
+
+Nguồn ảnh: trang PDF 39.
+
+Câu 25: Chủ nghĩa tư bản độc quyền ra đời là do:
+
+Đáp án: D) Các phương án nêu ra đều đúng.
+
+Nguồn ảnh: trang PDF 39.
+
+Câu 26: Chức năng nào của Kinh tế chính trị Mác - Lênin cung cấp hệ thống tri thức mới về những quy luật chi phối sự phát triển của sản xuất và trao đổi gắn với phương thức sản xuất?
+
+Đáp án: B) Chức năng nhận thức.
+
+Nguồn ảnh: trang PDF 39.
+
+Câu 27: Phương án nào không thuộc chức năng của Nhà nước Việt Nam trong nền kinh tế thị trường định hướng xã hội chủ nghĩa?
+
+Đáp án: B) Quản lý hoạt động sản xuất kinh doanh của các doanh nghiệp nhà nước.
+
+Nguồn ảnh: trang PDF 39.
+
+Câu 28: Hãy sắp xếp sự phát triển các hình thái giá trị.
+
+Đáp án: B) Hình thái giản đơn, hình thái toàn bộ, hình thái chung, hình thái tiền tệ.
+
+Nguồn ảnh: trang PDF 39.
+
+TRANG PDF 40
+
+Câu 29: Hệ thống lý luận chính trị đầu tiên nghiên cứu về nền sản xuất tư bản chủ nghĩa là:
+
+Đáp án: D) Chủ nghĩa trọng thương.
+
+Nguồn ảnh: trang PDF 40.
+
+Câu 30: Việc tiếp thu và phát triển khoa học công nghệ mới, hiện đại của các nước kém phát triển có thể thực hiện thông qua các con đường cơ bản nào?
+
+Đáp án: D) Cả 3 đáp án đều đúng.
+
+Nguồn ảnh: trang PDF 40.
+
+Câu 31: Một trong những đặc điểm công nghiệp hóa, hiện đại hóa ở Việt Nam là:
+
+Đáp án: A) Thực hiện trong điều kiện đất nước còn kém phát triển.
+
+Nguồn ảnh: trang PDF 40.
+
+Câu 32: Chủ nghĩa tư bản độc quyền nhà nước hình thành và phát triển rõ nét từ:
+
+Đáp án: D) Giữa thế kỷ XX.
+
+Nguồn ảnh: trang PDF 40.
+
+Câu 33: Tìm phương án không đúng về xuất khẩu tư bản của Nhà nước.
+
+Đáp án: Không xác định từ phần ảnh này.
+
+Nguồn ảnh: trang PDF 40.
+
+Ghi chú: Câu hỏi tiếp tục ở trang 41.
+
+TRANG PDF 41
+
+Câu 33: Tìm phương án không đúng về xuất khẩu tư bản của Nhà nước.
+
+Đáp án: B) Thường đầu tư vào những ngành kinh tế có vòng quay tư bản ngắn và thu được lợi nhuận độc quyền cao.
+
+Nguồn ảnh: trang PDF 41.
+
+Câu 34: Những thành tựu và hạn chế của chủ nghĩa tư bản bắt nguồn từ:
+
+Đáp án: B) Mâu thuẫn giữa trình độ xã hội hóa cao của lực lượng sản xuất với quan hệ sở hữu tư nhân tư bản chủ nghĩa về tư liệu sản xuất.
+
+Nguồn ảnh: trang PDF 41.
+
+Câu 35: Một trong những tác động tiêu cực của hội nhập kinh tế quốc tế là:
+
+Đáp án: C) Làm tăng nguy cơ tình trạng khủng bố quốc tế, buôn lậu, tội phạm xuyên quốc gia, bệnh dịch.
+
+Nguồn ảnh: trang PDF 41.
+
+Câu 36: Chọn phương án đúng: 1 mét vải = 10 kg thóc.
+
+Đáp án: A) Giá trị của hàng hóa vải được biểu hiện ở hàng hóa thóc.
+
+Nguồn ảnh: trang PDF 41.
+
+TRANG PDF 42
+
+Câu 37: Cartel (Cácten) là hình thức tổ chức độc quyền được thành lập trên cơ sở nào?
+
+Đáp án: C) Ký kết các hiệp định, thỏa thuận.
+
+Nguồn ảnh: trang PDF 42.
+
+Câu 38: Trong số các thành phần kinh tế đang tồn tại ở Việt Nam, thành phần nào được xác định giữ vai trò là nòng cốt của nền kinh tế?
+
+Đáp án: D) Kinh tế nhà nước, kinh tế tập thể, kinh tế tư nhân.
+
+Nguồn ảnh: trang PDF 42.
+
+Câu 39: Phương án nào phản ánh không đúng về quan hệ sở hữu?
+
+Đáp án: A) Là quan hệ giữa con người và vật.
+
+Nguồn ảnh: trang PDF 42.
+
+Câu 40: Một trong những đặc điểm của nền kinh tế tri thức là:
+
+Đáp án: D) Các ngành kinh tế dựa vào tri thức ngày càng tăng và chiếm đa số.
+
+Nguồn ảnh: trang PDF 42.
+
+Câu 41: Một trong những nội dung hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam là:
+
+Đáp án: A) Hoàn thiện thể chế về sở hữu và phát triển các thành phần kinh tế.
+
+Nguồn ảnh: trang PDF 42.
+
+TRANG PDF 43
+
+Câu 42: Lựa chọn phương án đúng nhất.
+
+Đáp án: B) Giá trị thặng dư được tạo ra trong quá trình sản xuất.
+
+Nguồn ảnh: trang PDF 43.
+
+Câu 43: Một trong những hạn chế trong thể chế kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam là:
+
+Đáp án: B) Việc hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa ở nước ta chưa đồng bộ.
+
+Nguồn ảnh: trang PDF 43.
+
+Câu 44: Điền vào chỗ trống: Địa tô là phần giá trị thặng dư còn lại sau khi đã khấu trừ đi phần lợi nhuận bình quân mà (...) phải trả cho địa chủ.
+
+Đáp án: B) Các nhà tư bản kinh doanh trên lĩnh vực nông nghiệp.
+
+Nguồn ảnh: trang PDF 43.
+
+Câu 45: Trong giai đoạn tự do cạnh tranh của chủ nghĩa tư bản, giá trị thặng dư có hình thái chuyển hóa thành gì?
+
+Đáp án: Không xác định từ phần ảnh này.
+
+Nguồn ảnh: trang PDF 43.
+
+Ghi chú: Câu tiếp tục ở trang 44.
+
+TRANG PDF 44
+
+Câu 45: Trong giai đoạn tự do cạnh tranh của chủ nghĩa tư bản, giá trị thặng dư có hình thái chuyển hóa thành:
+
+Đáp án: D) Lợi nhuận bình quân.
+
+Nguồn ảnh: trang PDF 44.
+
+Câu 46: Trong quan hệ sở hữu của cải vật chất, giữ vai trò quyết định là:
+
+Đáp án: C) Sở hữu tư liệu sản xuất.
+
+Nguồn ảnh: trang PDF 44.
+
+Câu 47: Trong giai đoạn tự do cạnh tranh của chủ nghĩa tư bản, giá trị hàng hóa có hình thái chuyển hóa thành:
+
+Đáp án: C) Giá cả sản xuất.
+
+Nguồn ảnh: trang PDF 44.
+
+Câu 48: Sự vận động, biến đổi và phát triển của quan hệ sở hữu chịu sự quy định bởi:
+
+Đáp án: D) Luật pháp quy định.
+
+Nguồn ảnh: trang PDF 44.
+
+Ghi chú: Bên cạnh đáp án có dấu hỏi viết tay; giữ theo dấu khoanh đỏ.
+
+Câu 49: Trong số các thành phần kinh tế đang tồn tại ở Việt Nam, thành phần nào được xác định giữ vai trò là nền tảng của nền kinh tế?
+
+Đáp án: C) Kinh tế nhà nước, kinh tế tập thể.
+
+Nguồn ảnh: trang PDF 44.
+
+TRANG PDF 45
+
+Câu 50: Đặc trưng của cuộc cách mạng công nghiệp lần thứ ba là:
+
+Đáp án: D) Sử dụng công nghệ thông tin và tự động hóa.
+
+Nguồn ảnh: trang PDF 45.
+
+Câu 51: Biểu hiện đặc trưng của cuộc cách mạng công nghiệp lần thứ tư là sự xuất hiện các công nghệ mới có tính đột phá về:
+
+Đáp án: D) Cả 3 đáp án đều đúng.
+
+Nguồn ảnh: trang PDF 45.
+
+Câu 52: Trong các chức năng của tiền, chức năng nào có thể dùng tiền giấy?
+
+Đáp án: A) Chức năng phương tiện lưu thông.
+
+Nguồn ảnh: trang PDF 45.
+
+Câu 53: Cơ chế kinh tế của chủ nghĩa tư bản độc quyền nhà nước là sự dung hợp của:
+
+Đáp án: C) Cơ chế thị trường, độc quyền tư nhân và sự can thiệp của Nhà nước.
+
+Nguồn ảnh: trang PDF 45.
+
+TRANG PDF 46
+
+Câu 54: Mục đích điều tiết vĩ mô của Nhà nước Việt Nam trong nền kinh tế thị trường định hướng xã hội chủ nghĩa là:
+
+Đáp án: C) Xây dựng xã hội dân giàu, nước mạnh, dân chủ, công bằng, văn minh; phát huy tác dụng tích cực và hạn chế tác động tiêu cực của cơ chế thị trường.
+
+Nguồn ảnh: trang PDF 46.
+
+Câu 55: Đâu là những tác động tiêu cực của cạnh tranh trong nền kinh tế thị trường?
+
+Đáp án: D) Tất cả các đáp án đều đúng.
+
+Nguồn ảnh: trang PDF 46.
+
+Câu 56: Thế nào là tỷ suất giá trị thặng dư?
+
+Đáp án: C) Là tỷ lệ phần trăm giữa giá trị thặng dư và tư bản khả biến cần thiết để tạo ra giá trị thặng dư đó.
+
+Nguồn ảnh: trang PDF 46.
+
+Câu 57: Việt Nam tham gia Hiệp hội các quốc gia Đông Nam Á (ASEAN) năm nào?
+
+Đáp án: C) Năm 1995.
+
+Nguồn ảnh: trang PDF 46.
+
+Câu 58: Bản chất của tiền tệ?
+
+Đáp án: D) Tất cả các đáp án đều đúng.
+
+Nguồn ảnh: trang PDF 46.
+
+Câu 59: Phương án nào không thuộc chức năng của Nhà nước Việt Nam trong nền kinh tế thị trường định hướng xã hội chủ nghĩa?
+
+Đáp án: Không xác định từ phần ảnh này.
+
+Nguồn ảnh: trang PDF 46.
+
+Ghi chú: Câu tiếp tục ở trang 47.
+
+TRANG PDF 47
+
+Câu 59: Phương án nào không thuộc chức năng của Nhà nước Việt Nam trong nền kinh tế thị trường định hướng xã hội chủ nghĩa?
+
+Đáp án: A) Định giá cả hàng hóa cho các doanh nghiệp.
+
+Nguồn ảnh: trang PDF 47.
+
+Câu 60: Điền vào chỗ trống: “Giá trị thặng dư, được quan niệm là con đẻ của ..., mang hình thái chuyển hóa là lợi nhuận”.
+
+Đáp án: B) Toàn bộ tư bản ứng trước.
+
+Nguồn ảnh: trang PDF 47.
+
+Câu 61: Chi phí sản xuất tư bản chủ nghĩa là:
+
+Đáp án: A) Chi phí về tư bản bất biến và tư bản khả biến mà nhà tư bản bỏ ra để sản xuất hàng hóa.
+
+Nguồn ảnh: trang PDF 47.
+
+Câu 62: Việc thực hiện nhất quán chính sách kinh tế nhiều thành phần có tác động như thế nào đến sự phát triển của kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam?
+
+Đáp án: D) Hình thành những chủ thể kinh tế độc lập, có lợi ích riêng; làm phong phú thêm đội ngũ các chủ thể kinh tế tham gia vào thị trường.
+
+Nguồn ảnh: trang PDF 47.
+
+Câu 63: Vai trò kinh tế của Nhà nước trong nền kinh tế thị trường?
+
+Đáp án: A) Thực hiện chức năng quản lý nhà nước về kinh tế và thực hiện những biện pháp để khắc phục khuyết tật của thị trường.
+
+Nguồn ảnh: trang PDF 47.
+
+TRANG PDF 48
+
+Câu 72: Đâu không phải là cách thức hình thành sở hữu nhà nước trong giai đoạn chủ nghĩa tư bản độc quyền nhà nước?
+
+Đáp án: D) Mua lại những xí nghiệp đang hoạt động ở nước ngoài.
+
+Nguồn ảnh: trang PDF 48.
+
+Câu 73: Vì sao ở Việt Nam kinh tế nhà nước cùng với kinh tế tập thể lại giữ vai trò là nền tảng của nền kinh tế?
+
+Đáp án: A) Vì trong thời kỳ quá độ lên chủ nghĩa xã hội, sở hữu công cộng là nền tảng của nền kinh tế; kinh tế nhà nước và kinh tế tập thể là những thành phần kinh tế đại diện cho sở hữu công cộng.
+
+Nguồn ảnh: trang PDF 48.
+
+Câu 74: Tư bản bất biến là gì?
+
+Đáp án: A) Là bộ phận tư bản tồn tại dưới hình thái tư liệu sản xuất và không biến đổi về lượng trong quá trình sản xuất; ký hiệu là c.
+
+Nguồn ảnh: trang PDF 48.
+
+Câu 75: “Những bước phát triển nhảy vọt về chất trình độ của tư liệu sản xuất trên cơ sở những phát minh đột phá về khoa học và công nghệ, kéo theo những bước phân công lao động cao hơn hẳn nhờ áp dụng một cách phổ biến những tính năng mới trong kỹ thuật - công nghệ đó vào đời sống xã hội” là khái niệm nào?
+
+Đáp án: D) Cách mạng công nghiệp.
+
+Nguồn ảnh: trang PDF 48.
+
+Câu 76: Môn Kinh tế chính trị thực chất là một môn khoa học có tính gì?
+
+Đáp án: Không xác định từ phần ảnh này.
+
+Nguồn ảnh: trang PDF 48.
+
+Ghi chú: Câu tiếp tục ở trang 49.
+
+TRANG PDF 49
+
+Câu 76: Môn Kinh tế chính trị thực chất là một môn khoa học:
+
+Đáp án: B) Có tính lịch sử.
+
+Nguồn ảnh: trang PDF 49.
+
+Câu 77: Địa tô chênh lệch I là:
+
+Đáp án: B) Địa tô thu được trên những ruộng đất có độ màu mỡ tự nhiên tốt hơn, có lợi thế về vị trí địa lý.
+
+Nguồn ảnh: trang PDF 49.
+
+Câu 78: Một trong những quan điểm về công nghiệp hóa, hiện đại hóa ở Việt Nam trong bối cảnh cách mạng công nghiệp lần thứ tư là:
+
+Đáp án: B) Chủ động chuẩn bị các điều kiện cần thiết, giải phóng mọi nguồn lực và huy động sức sáng tạo toàn dân.
+
+Nguồn ảnh: trang PDF 49.
+
+Ghi chú: Cụm “và huy động sức sáng tạo toàn dân” được bổ sung bằng chữ đỏ trong ảnh.
+
+Câu 79: Thể chế là:
+
+Đáp án: B) Là những quy tắc, luật pháp, bộ máy quản lý và cơ chế vận hành nhằm điều chỉnh các hoạt động của con người trong một chế độ xã hội.
+
+Nguồn ảnh: trang PDF 49.
+
+Câu 80: Trong các yếu tố sau đây, yếu tố nào là nguồn gốc của giá trị hàng hóa?
+
+Đáp án: C) Lao động của con người.
+
+Nguồn ảnh: trang PDF 49.
+
+TRANG PDF 50
+
+Câu 77: Địa tô chênh lệch I là:
+
+Đáp án: B) Địa tô thu được trên những ruộng đất có độ màu mỡ tự nhiên tốt hơn, có lợi thế về vị trí địa lý.
+
+Nguồn ảnh: trang PDF 50.
+
+Câu 78: Một trong những quan điểm về công nghiệp hóa, hiện đại hóa ở Việt Nam trong bối cảnh cách mạng công nghiệp lần thứ tư là:
+
+Đáp án: B) Chủ động chuẩn bị các điều kiện cần thiết, giải phóng mọi nguồn lực.
+
+Nguồn ảnh: trang PDF 50.
+
+Câu 79: Thể chế là:
+
+Đáp án: B) Là những quy tắc, luật pháp, bộ máy quản lý và cơ chế vận hành nhằm điều chỉnh các hoạt động của con người trong một chế độ xã hội.
+
+Nguồn ảnh: trang PDF 50.
+
+Câu 80: Trong các yếu tố sau đây, yếu tố nào là nguồn gốc của giá trị hàng hóa?
+
+Đáp án: C) Lao động của con người.
+
+Nguồn ảnh: trang PDF 50.
+
+TRANG PDF 51
+
+Câu 15: Chọn đáp án đúng về cấu tạo hữu cơ của tư bản.
+
+Đáp án: C) Cấu tạo hữu cơ của tư bản là cấu tạo giá trị được quyết định bởi cấu tạo kỹ thuật và phản ánh sự biến đổi của cấu tạo kỹ thuật.
+
+Nguồn ảnh: trang PDF 51.
+
+Câu 16: Chọn đáp án đúng nhất về tác động tiêu cực của độc quyền đối với nền kinh tế.
+
+Đáp án: B) Gây nên tình trạng cạnh tranh không hoàn hảo; kìm hãm sự tiến bộ kỹ thuật, kìm hãm sự phát triển kinh tế - xã hội; làm tăng sự phân hóa giàu nghèo.
+
+Nguồn ảnh: trang PDF 51.
+
+Câu 17: Trong giao dịch mua bán chứng khoán, chứng quyền, tiền tệ thực hiện chức năng nào?
+
+Đáp án: C) Thước đo giá trị.
+
+Nguồn ảnh: trang PDF 51.
+
+Câu 18: Xác định vai trò của sở hữu công cộng trong nền kinh tế của thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam.
+
+Đáp án: A) Sở hữu công cộng vừa là mục tiêu, vừa là phương tiện trong công cuộc xây dựng chủ nghĩa xã hội.
+
+Nguồn ảnh: trang PDF 51.
+
+TRANG PDF 52
+
+Câu 6: Động lực của người sản xuất hàng hóa là?
+
+Đáp án: C) Lợi nhuận tối đa.
+
+Nguồn ảnh: trang PDF 52.
+
+Ghi chú: Câu trùng ở trang 64 và 68 lại khoanh D “Tất cả các đáp án đều đúng”; tài liệu không thống nhất.
+
+Câu 7: Chọn phương án đúng về dịch vụ.
+
+Đáp án: B) Dịch vụ là hàng hóa vô hình.
+
+Nguồn ảnh: trang PDF 52.
+
+Câu 8: Phân công lao động xã hội là:
+
+Đáp án: B) Sự phân chia lao động xã hội vào trong các ngành sản xuất khác nhau.
+
+Nguồn ảnh: trang PDF 52.
+
+Câu 9: Một trong những tác động tiêu cực của hội nhập kinh tế quốc tế là:
+
+Đáp án: B) Làm tăng khoảng cách giàu nghèo và bất bình đẳng xã hội.
+
+Nguồn ảnh: trang PDF 52.
+
+Câu 10: Các cuộc cách mạng công nghiệp làm cho người tiêu dùng được hưởng lợi nhờ:
+
+Đáp án: Không xác định từ phần ảnh này.
+
+Nguồn ảnh: trang PDF 52.
+
+Ghi chú: Phần đáp án nằm ở trang 57.
+
+TRANG PDF 53
+
+Câu 19: Những phát minh quan trọng tạo tiền đề cho cách mạng công nghiệp lần thứ nhất là:
+
+Đáp án: A) Phát minh ra máy móc trong ngành dệt.
+
+Nguồn ảnh: trang PDF 53.
+
+Câu 20: Chọn đáp án có nội dung đúng nhất: Thời gian lao động cần thiết là:
+
+Đáp án: D) Thời gian lao động mà người công nhân tạo ra giá trị ngang bằng với giá trị sức lao động.
+
+Nguồn ảnh: trang PDF 53.
+
+Câu 21: Đâu không phải là biểu hiện mới của xuất khẩu tư bản trong điều kiện lịch sử mới?
+
+Đáp án: B) Đại bộ phận dòng đầu tư lại chảy qua lại giữa các nước tư bản phát triển với nhau.
+
+Nguồn ảnh: trang PDF 53.
+
+Ghi chú: Bên lề có ghi chú đỏ phản biện cách diễn đạt, nhưng dấu khoanh nằm ở B.
+
+Câu 22: Trong giai đoạn chủ nghĩa tư bản độc quyền, quy luật giá trị biểu hiện thành quy luật nào?
+
+Đáp án: D) Quy luật giá cả độc quyền.
+
+Nguồn ảnh: trang PDF 53.
+
+Câu 23: Một trong những yêu cầu của cơ cấu kinh tế hợp lý, hiện đại và hiệu quả là:
+
+Đáp án: C) Khai thác, phân bố và phát huy hiệu quả các nguồn lực trong nước, thu hút hữu hiệu các nguồn lực bên ngoài.
+
+Nguồn ảnh: trang PDF 53.
+
+TRANG PDF 54
+
+Câu 68: Những hình thức tổ chức độc quyền từ thấp đến cao cuối thế kỷ XIX, đầu thế kỷ XX bao gồm:
+
+Đáp án: D) Cartel (Cácten), Syndicate (Xanhđica), Trust (Tơrớt), Consortium (Côngxoócxiom).
+
+Nguồn ảnh: trang PDF 54.
+
+Câu 69: Điền vào chỗ trống: “... là lao động của người sản xuất hàng hóa không kể đến hình thức cụ thể của nó, đó là sự hao phí sức lao động nói chung của người sản xuất hàng hóa về cơ bắp, thần kinh, trí óc”.
+
+Đáp án: D) Lao động trừu tượng.
+
+Nguồn ảnh: trang PDF 54.
+
+Câu 70: Chọn đáp án SAI về thị trường.
+
+Đáp án: C) Thị trường biểu hiện dưới hình thái: chợ, cửa hàng, siêu thị...
+
+Nguồn ảnh: trang PDF 54.
+
+Câu 71: Một trong những tác động tích cực của hội nhập kinh tế quốc tế là:
+
+Đáp án: C) Tạo động lực thúc đẩy chuyển dịch cơ cấu kinh tế theo hướng hợp lý, hiện đại và hiệu quả hơn.
+
+Nguồn ảnh: trang PDF 54.
+
+TRANG PDF 55
+
+Câu 64: Yêu cầu của quy luật giá trị trong nền kinh tế thị trường?
+
+Đáp án: B) Quá trình sản xuất và lưu thông hàng hóa phải được tiến hành trên cơ sở hao phí lao động xã hội cần thiết.
+
+Nguồn ảnh: trang PDF 55.
+
+Câu 65: Chọn đáp án đúng. Các nhân tố ảnh hưởng tới quy mô tích lũy là:
+
+Đáp án: A) Tỷ suất giá trị thặng dư, năng suất lao động, tư bản ứng trước, sử dụng hiệu quả máy móc.
+
+Nguồn ảnh: trang PDF 55.
+
+Câu 66: Về mặt lượng, giá trị thặng dư được tính theo:
+
+Đáp án: D) Tích giữa tỷ suất giá trị thặng dư với tư bản khả biến cần thiết để tạo ra giá trị thặng dư đó.
+
+Nguồn ảnh: trang PDF 55.
+
+Câu 67: Điền thuật ngữ thích hợp vào chỗ trống: “... đẻ ra tập trung sản xuất và sự tập trung sản xuất này, khi phát triển đến mức độ nhất định, lại dẫn tới độc quyền”.
+
+Đáp án: D) Tự do cạnh tranh.
+
+Nguồn ảnh: trang PDF 55.
+
+TRANG PDF 56
+
+Câu 1: Vai trò của công nghiệp hóa, hiện đại hóa đối với Việt Nam là:
+
+Đáp án: C) Góp phần hoàn thiện quan hệ sản xuất.
+
+Nguồn ảnh: trang PDF 56.
+
+Câu 2: “Khoản chênh lệch giữa giá trị hàng hóa bán được với chi phí phải bỏ ra” được gọi là gì?
+
+Đáp án: B) Lợi nhuận.
+
+Nguồn ảnh: trang PDF 56.
+
+Câu 3: Trong số các tập đoàn sở hữu sau, tập đoàn sở hữu nào có thu nhập với tên gọi là lợi tức?
+
+Đáp án: B) Tư bản cho vay.
+
+Nguồn ảnh: trang PDF 56.
+
+Câu 4: Theo quan điểm của Đảng Cộng sản Việt Nam, (...) là quá trình chuyển đổi căn bản, toàn diện các hoạt động sản xuất kinh doanh, dịch vụ và quản lý kinh tế - xã hội từ sử dụng sức lao động thủ công là chính sang sử dụng một cách phổ biến sức lao động với công nghệ, phương tiện, phương pháp tiên tiến hiện đại dựa trên sự phát triển của công nghiệp và tiến bộ khoa học công nghệ, nhằm tạo ra năng suất lao động xã hội cao.
+
+Đáp án: D) Công nghiệp hóa, hiện đại hóa.
+
+Nguồn ảnh: trang PDF 56.
+
+Câu 5: Xác định câu trả lời đúng nhất: Chủ nghĩa tư bản ngày nay là:
+
+Đáp án: A) Giai đoạn hiện nay của chủ nghĩa tư bản.
+
+Nguồn ảnh: trang PDF 56.
+
+Ghi chú: Bên cạnh có ghi chú đỏ “nếu có thể thì là độc quyền tư bản”; giữ theo vòng khoanh A.
+
+TRANG PDF 57
+
+Câu 10: Các cuộc cách mạng công nghiệp làm cho người tiêu dùng được hưởng lợi nhờ:
+
+Đáp án: D) Cả 3 đáp án đều đúng.
+
+Nguồn ảnh: trang PDF 57.
+
+Câu 11: C. Mác gọi chứng khoán, chứng quyền và các giấy tờ có giá là gì?
+
+Đáp án: B) Tư bản giả.
+
+Nguồn ảnh: trang PDF 57.
+
+Câu 12: Đặc trưng của hàng hóa sức lao động là gì?
+
+Đáp án: A) Sức lao động gắn với quá trình sản xuất hàng hóa.
+
+Nguồn ảnh: trang PDF 57.
+
+Ghi chú: Bên cạnh đáp án có dấu hỏi lớn; giữ theo dấu khoanh đỏ ở A.
+
+Câu 13: Chủ nghĩa tư bản có vai trò như thế nào?
+
+Đáp án: B) Tất cả các đáp án đều đúng.
+
+Nguồn ảnh: trang PDF 57.
+
+Câu 14: Chọn đáp án đúng. Nguồn gốc của tích lũy tư bản là:
+
+Đáp án: A) Là giá trị thặng dư.
+
+Nguồn ảnh: trang PDF 57.
+
+TRANG PDF 58
+
+Câu không rõ số: Giá cả của quyền sử dụng đất do yếu tố nào quyết định? Chọn đáp án sai.
+
+Đáp án: Không xác định từ phần ảnh này.
+
+Nguồn ảnh: trang PDF 58.
+
+Ghi chú: Ảnh chỉ hiện phương án A và D, không thấy phương án được khoanh; có dấu hỏi lớn.
+
+Câu 7: Thế nào là thời gian lao động xã hội cần thiết?
+
+Đáp án: B) Là khoảng thời gian cần thiết để sản xuất ra một hàng hóa nào đó trong điều kiện sản xuất trung bình của xã hội, tức là với trình độ khéo léo trung bình, cường độ lao động trung bình và trong điều kiện kỹ thuật trung bình của xã hội.
+
+Nguồn ảnh: trang PDF 58.
+
+Câu 8: Việt Nam chính thức trở thành thành viên của WTO năm nào?
+
+Đáp án: D) Năm 2007.
+
+Nguồn ảnh: trang PDF 58.
+
+Câu 9: Một trong những yêu cầu của cơ cấu kinh tế hợp lý, hiện đại và hiệu quả là:
+
+Đáp án: C) Khai thác, phân bố và phát huy hiệu quả các nguồn lực trong nước, thu hút hữu hiệu các nguồn lực bên ngoài.
+
+Nguồn ảnh: trang PDF 58.
+
+Câu 10: Điền thuật ngữ thích hợp vào chỗ trống: “... đẻ ra tập trung sản xuất và sự tập trung sản xuất này, khi phát triển đến mức độ nhất định, lại dẫn tới độc quyền”.
+
+Đáp án: Không xác định từ phần ảnh này.
+
+Nguồn ảnh: trang PDF 58.
+
+Ghi chú: Câu tiếp tục ở trang 60.
+
+TRANG PDF 59
+
+Câu 43: Những phát minh quan trọng tạo tiền đề cho cách mạng công nghiệp lần thứ nhất là:
+
+Đáp án: C) Phát minh ra máy móc trong ngành dệt.
+
+Nguồn ảnh: trang PDF 59.
+
+Câu 44: Sự ra đời của tư bản tài chính là kết quả của:
+
+Đáp án: B) Quá trình độc quyền hóa trong công nghiệp và trong ngân hàng xoắn xuýt với nhau.
+
+Nguồn ảnh: trang PDF 59.
+
+Câu 45: Bản chất của tiền tệ?
+
+Đáp án: A) Tiền tệ là một loại hàng hóa đặc biệt được tách ra làm vật ngang giá chung cho mọi hàng hóa khác.
+
+Nguồn ảnh: trang PDF 59.
+
+Câu 46: Cơ cấu kinh tế nhiều thành phần trong thời kỳ quá độ lên chủ nghĩa xã hội là:
+
+Đáp án: B) Tổng thể các thành phần kinh tế cùng tồn tại bình đẳng, hợp tác, cạnh tranh, cùng phát triển theo pháp luật.
+
+Nguồn ảnh: trang PDF 59.
+
+Câu 47: Lựa chọn phương án đúng nhất: Giá trị thặng dư là gì?
+
+Đáp án: A) Là bộ phận giá trị mới dôi ra ngoài giá trị sức lao động do người lao động làm thuê tạo ra và thuộc về người mua sức lao động.
+
+Nguồn ảnh: trang PDF 59.
+
+Ghi chú: Ảnh gốc hiển thị từ “mới/cũ” không thật rõ; đã chuẩn hóa theo cụm nghĩa đầy đủ của phương án được đánh dấu.
+
+TRANG PDF 60
+
+Câu 66: Nguyên tắc kết hợp kế hoạch với thị trường có nghĩa là:
+
+Đáp án: A) Thị trường vừa là đối tượng, vừa là căn cứ của công tác kế hoạch hóa.
+
+Nguồn ảnh: trang PDF 60.
+
+Ghi chú: Trang này không có chấm đỏ cạnh phương án; đáp án được đối chiếu từ câu trùng ở trang 27.
+
+Câu 67: Mục đích của nền sản xuất tư bản chủ nghĩa là gì?
+
+Đáp án: Không thấy dấu khoanh đỏ trong tài liệu.
+
+Nguồn ảnh: trang PDF 60.
+
+Ghi chú: Không thấy dấu khoanh đỏ trong ảnh.
+
+Câu 68: Điền vào chỗ trống: “(...) của một quốc gia là quá trình quốc gia đó thực hiện gắn kết nền kinh tế của mình với nền kinh tế thế giới dựa trên sự chia sẻ lợi ích đồng thời tuân thủ các chuẩn mực quốc tế chung”.
+
+Đáp án: A) Hội nhập kinh tế quốc tế.
+
+Nguồn ảnh: trang PDF 60.
+
+Câu 69: Công thức xác định lợi nhuận là:
+
+Đáp án: A) p = G - K.
+
+Nguồn ảnh: trang PDF 60.
+
+Câu 70: Phương thức sản xuất tư bản chủ nghĩa ra đời thay thế cho phương thức sản xuất nào?
+
+Đáp án: B) Phương thức sản xuất phong kiến.
+
+Nguồn ảnh: trang PDF 60.
+
+TRANG PDF 61
+
+Câu 53: Một trong những tất yếu khách quan của hội nhập kinh tế quốc tế là:
+
+Đáp án: C) Do hội nhập kinh tế quốc tế là phương thức phát triển phổ biến của các nước, nhất là các nước đang phát triển trong điều kiện hiện nay.
+
+Nguồn ảnh: trang PDF 61.
+
+Câu 54: Cho biết, tỷ suất lợi nhuận phản ánh điều gì?
+
+Đáp án: A) Phản ánh mức doanh lợi đầu tư tư bản.
+
+Nguồn ảnh: trang PDF 61.
+
+Câu 55: Quy luật kinh tế cơ bản của sản xuất và trao đổi hàng hóa là quy luật nào?
+
+Đáp án: D) Quy luật giá trị.
+
+Nguồn ảnh: trang PDF 61.
+
+Câu 56: Phân công lao động xã hội là:
+
+Đáp án: B) Sự phân chia lao động xã hội vào trong các ngành sản xuất khác nhau.
+
+Nguồn ảnh: trang PDF 61.
+
+TRANG PDF 62
+
+Câu 57: Đâu không phải là cách thức hình thành sở hữu nhà nước trong giai đoạn chủ nghĩa tư bản độc quyền nhà nước?
+
+Đáp án: B) Mua lại những xí nghiệp đang hoạt động ở nước ngoài.
+
+Nguồn ảnh: trang PDF 62.
+
+Câu 58: Nội dung hoàn thiện thể chế thúc đẩy hội nhập kinh tế quốc tế cần phải thực hiện nhiệm vụ nào?
+
+Đáp án: C) Thực hiện nhất quán chủ trương đa phương hóa, đa dạng hóa trong hợp tác kinh tế quốc tế, không để bị lệ thuộc vào một số ít thị trường.
+
+Nguồn ảnh: trang PDF 62.
+
+Câu 59: Dòng lý thuyết Kinh tế chính trị được định danh với tên gọi là Kinh tế chính trị Mác - Lênin vì:
+
+Đáp án: B) Do C. Mác và Ph. Ăngghen sáng lập, Lênin tiếp tục kế thừa, bổ sung, phát triển.
+
+Nguồn ảnh: trang PDF 62.
+
+Câu 60: So sánh về mặt lượng tỷ suất lợi nhuận và tỷ suất giá trị thặng dư với cùng một lượng tư bản ứng trước, cùng một lượng giá trị thặng dư thu được.
+
+Đáp án: C) Tỷ suất lợi nhuận nhỏ hơn tỷ suất giá trị thặng dư.
+
+Nguồn ảnh: trang PDF 62.
+
+Câu 61: Chọn phương án đúng phản ánh tương quan giữa giá cả ruộng đất với mức địa tô hằng năm và tỷ suất lợi tức tiền gửi ngân hàng.
+
+Đáp án: A) Giá cả ruộng đất tỷ lệ thuận với mức địa tô hằng năm và tỷ lệ nghịch với tỷ suất lợi tức tiền gửi ngân hàng.
+
+Nguồn ảnh: trang PDF 62.
+
+TRANG PDF 63
+
+Câu 38: Biểu hiện mới của chủ nghĩa tư bản độc quyền nhà nước là:
+
+Đáp án: A) Tỷ trọng kinh tế nhà nước trong nền kinh tế tư bản chủ nghĩa tăng lên; sự kết hợp giữa kinh tế nhà nước và kinh tế tư nhân tăng lên; chi tiêu tài chính của các nhà nước tư bản phát triển để điều tiết kinh tế tăng lên.
+
+Nguồn ảnh: trang PDF 63.
+
+Câu 39: Một trong những đặc điểm công nghiệp hóa, hiện đại hóa ở Việt Nam là:
+
+Đáp án: C) Thực hiện trong bối cảnh toàn cầu hóa kinh tế.
+
+Nguồn ảnh: trang PDF 63.
+
+Ghi chú: Bên cạnh câu có dấu hỏi viết tay.
+
+Câu 40: Điều kiện để sức lao động trở thành hàng hóa là:
+
+Đáp án: A) Người lao động được tự do về thân thể và không có tư liệu sản xuất.
+
+Nguồn ảnh: trang PDF 63.
+
+Câu 41: Tiền công là gì?
+
+Đáp án: A) Giá cả của hàng hóa sức lao động.
+
+Nguồn ảnh: trang PDF 63.
+
+Câu 42: Thị trường có vai trò như thế nào trong nền kinh tế? Chọn đáp án SAI.
+
+Đáp án: C) Thị trường khắc phục sự khan hiếm các nguồn lực.
+
+Nguồn ảnh: trang PDF 63.
+
+TRANG PDF 64
+
+Câu 48: Nhà nước xã hội chủ nghĩa ở Việt Nam quản lý nền kinh tế thị trường định hướng xã hội chủ nghĩa theo nguyên tắc:
+
+Đáp án: B) Kết hợp kế hoạch với thị trường.
+
+Nguồn ảnh: trang PDF 64.
+
+Ghi chú: Trang 64 có dấu hỏi nhưng không có chấm đỏ rõ; trang 68 là ảnh trùng và đánh dấu B.
+
+Câu 49: Trong chủ nghĩa tư bản ngày nay, các tập đoàn tư bản tài chính thường tồn tại dưới dạng:
+
+Đáp án: B) Công - nông - thương - tín - dịch vụ, hay công nghiệp - quân sự - dịch vụ quốc phòng.
+
+Nguồn ảnh: trang PDF 64.
+
+Câu 50: Ba hình thái tuần hoàn của tư bản theo thứ tự như thế nào?
+
+Đáp án: D) Tư bản tiền tệ, tư bản sản xuất, tư bản hàng hóa.
+
+Nguồn ảnh: trang PDF 64.
+
+Câu 51: Động lực của người sản xuất hàng hóa là?
+
+Đáp án: D) Tất cả các đáp án đều đúng.
+
+Nguồn ảnh: trang PDF 64.
+
+Ghi chú: Câu trùng ở trang 52 khoanh C “Lợi nhuận tối đa”; tài liệu không thống nhất.
+
+Câu 52: Vàng và bạc có thể đóng vai trò tiền tệ là bởi vì? Chọn đáp án đúng nhất.
+
+Đáp án: Không xác định từ phần ảnh này.
+
+Nguồn ảnh: trang PDF 64.
+
+Ghi chú: Phần phương án và dấu khoanh bị cắt ở cuối ảnh.
+
+TRANG PDF 65
+
+Câu 24: Xác định vai trò của sở hữu công cộng trong nền kinh tế của thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam.
+
+Đáp án: C) Sở hữu công cộng giữ vai trò định hướng xã hội chủ nghĩa cho sự vận động của nền kinh tế.
+
+Nguồn ảnh: trang PDF 65.
+
+Ghi chú: Bên cạnh câu có dấu hỏi viết tay.
+
+Câu 25: Lựa chọn phương án đúng nhất: Kinh tế nhà nước là:
+
+Đáp án: C) Là thành phần kinh tế dựa trên chế độ sở hữu công cộng về tư liệu sản xuất (sở hữu toàn dân và sở hữu nhà nước), bao gồm các doanh nghiệp nhà nước và các tài sản thuộc sở hữu nhà nước có thể đưa vào vòng chu chuyển kinh tế.
+
+Nguồn ảnh: trang PDF 65.
+
+Câu 26: Các cuộc cách mạng công nghiệp đã làm cho:
+
+Đáp án: D) Cả 3 đáp án đều đúng.
+
+Nguồn ảnh: trang PDF 65.
+
+Câu 27: Tìm phương án không đúng về mối quan hệ giữa cạnh tranh và độc quyền.
+
+Đáp án: C) Độc quyền thủ tiêu cạnh tranh.
+
+Nguồn ảnh: trang PDF 65.
+
+Ghi chú: Câu trùng ở trang 32 lại khoanh B; tài liệu không thống nhất.
+
+Câu 28: Điền vào chỗ trống để có khái niệm đúng: “(...) là mối quan hệ tỷ lệ giữa các ngành, các vùng và các thành phần kinh tế”.
+
+Đáp án: A) Cơ cấu kinh tế.
+
+Nguồn ảnh: trang PDF 65.
+
+TRANG PDF 66
+
+Câu 14: Điền vào chỗ trống: “Địa tô là phần giá trị thặng dư còn lại sau khi đã khấu trừ đi phần ... mà các nhà tư bản kinh doanh trên lĩnh vực nông nghiệp phải trả cho địa chủ”.
+
+Đáp án: D) Lợi nhuận bình quân.
+
+Nguồn ảnh: trang PDF 66.
+
+Câu 15: Khối lượng giá trị thặng dư phản ánh điều gì?
+
+Đáp án: A) Phản ánh sự bóc lột theo chiều rộng.
+
+Nguồn ảnh: trang PDF 66.
+
+Ghi chú: Bên cạnh câu có dấu hỏi viết tay.
+
+Câu 16: Những thành tựu và hạn chế của chủ nghĩa tư bản bắt nguồn từ:
+
+Đáp án: D) Mâu thuẫn giữa trình độ xã hội hóa cao của lực lượng sản xuất với quan hệ sở hữu tư nhân tư bản chủ nghĩa về tư liệu sản xuất.
+
+Nguồn ảnh: trang PDF 66.
+
+Câu 17: Hãy chỉ ra phương án nào không nằm trong số những công cụ điều tiết vĩ mô của Nhà nước trong nền kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam.
+
+Đáp án: D) Kế hoạch hóa.
+
+Nguồn ảnh: trang PDF 66.
+
+Ghi chú: Bên cạnh câu có dấu hỏi viết tay.
+
+Câu 18: Các cuộc cách mạng công nghiệp đã làm cho:
+
+Đáp án: A) Các yếu tố đầu vào của sản xuất đã thay đổi căn bản.
+
+Nguồn ảnh: trang PDF 66.
+
+Ghi chú: Trang 66/71 không thấy dấu đỏ rõ; đáp án được đối chiếu từ câu trùng có đánh dấu ở trang 27.
+
+TRANG PDF 67
+
+Câu 33: Đâu là những tác động tiêu cực của cạnh tranh trong nền kinh tế thị trường?
+
+Đáp án: D) Tất cả các đáp án đều đúng.
+
+Nguồn ảnh: trang PDF 67.
+
+Câu 34: Trong các yếu tố sau đây, yếu tố nào được xác định là thước đo của giá trị hàng hóa?
+
+Đáp án: C) Lao động trừu tượng.
+
+Nguồn ảnh: trang PDF 67.
+
+Câu 35: Cách mạng công nghiệp lần thứ ba diễn ra khi:
+
+Đáp án: D) Cả 3 đáp án đều đúng.
+
+Nguồn ảnh: trang PDF 67.
+
+Câu 36: Xác định vai trò của sở hữu công cộng trong nền kinh tế của thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam.
+
+Đáp án: C) Sở hữu công cộng vừa là mục tiêu, vừa là phương tiện trong công cuộc xây dựng chủ nghĩa xã hội.
+
+Nguồn ảnh: trang PDF 67.
+
+Ghi chú: Trang này không có chấm đỏ rõ; nội dung được đối chiếu từ câu trùng ở trang 51.
+
+Câu 37: Phương án nào không thuộc chức năng của Nhà nước Việt Nam trong nền kinh tế thị trường định hướng xã hội chủ nghĩa?
+
+Đáp án: B) Quản lý hoạt động sản xuất kinh doanh của các doanh nghiệp nhà nước.
+
+Nguồn ảnh: trang PDF 67.
+
+TRANG PDF 68
+
+Câu 48: Nhà nước xã hội chủ nghĩa ở Việt Nam quản lý nền kinh tế thị trường định hướng xã hội chủ nghĩa theo nguyên tắc:
+
+Đáp án: B) Kết hợp kế hoạch với thị trường.
+
+Nguồn ảnh: trang PDF 68.
+
+Câu 49: Trong chủ nghĩa tư bản ngày nay, các tập đoàn tư bản tài chính thường tồn tại dưới dạng:
+
+Đáp án: B) Công - nông - thương - tín - dịch vụ, hay công nghiệp - quân sự - dịch vụ quốc phòng.
+
+Nguồn ảnh: trang PDF 68.
+
+Câu 50: Ba hình thái tuần hoàn của tư bản theo thứ tự như thế nào?
+
+Đáp án: D) Tư bản tiền tệ, tư bản sản xuất, tư bản hàng hóa.
+
+Nguồn ảnh: trang PDF 68.
+
+Câu 51: Động lực của người sản xuất hàng hóa là?
+
+Đáp án: D) Tất cả các đáp án đều đúng.
+
+Nguồn ảnh: trang PDF 68.
+
+Ghi chú: Câu trùng ở trang 52 khoanh C “Lợi nhuận tối đa”; tài liệu không thống nhất.
+
+TRANG PDF 69
+
+Câu 28: Điền vào chỗ trống để có khái niệm đúng: “(...) là mối quan hệ tỷ lệ giữa các ngành, các vùng và các thành phần kinh tế”.
+
+Đáp án: A) Cơ cấu kinh tế.
+
+Nguồn ảnh: trang PDF 69.
+
+Câu 29: Quy luật kinh tế tồn tại:
+
+Đáp án: A) Khách quan.
+
+Nguồn ảnh: trang PDF 69.
+
+Câu 30: Một trong những tác động tích cực của hội nhập kinh tế quốc tế là:
+
+Đáp án: A) Làm tăng cơ hội cho các doanh nghiệp trong nước tiếp cận với thị trường quốc tế.
+
+Nguồn ảnh: trang PDF 69.
+
+Câu 31: Một trong những đặc điểm của nền kinh tế tri thức là:
+
+Đáp án: A) Các ngành kinh tế dựa vào tri thức ngày càng tăng và chiếm đa số.
+
+Nguồn ảnh: trang PDF 69.
+
+Câu 32: Một trong những phương hướng nâng cao hiệu quả của hội nhập kinh tế quốc tế ở Việt Nam là:
+
+Đáp án: C) Nâng cao năng lực cạnh tranh của nền kinh tế.
+
+Nguồn ảnh: trang PDF 69.
+
+Ghi chú: Có ghi chú đỏ “cạnh tranh quốc tế” bên cạnh.
+
+TRANG PDF 70
+
+Câu 10: Điền thuật ngữ thích hợp vào chỗ trống: “... đẻ ra tập trung sản xuất và sự tập trung sản xuất này, khi phát triển đến mức độ nhất định, lại dẫn tới độc quyền”.
+
+Đáp án: D) Tự do cạnh tranh.
+
+Nguồn ảnh: trang PDF 70.
+
+Câu 11: Hãy chọn phương án diễn đạt đúng về địa tô tư bản chủ nghĩa.
+
+Đáp án: A) Địa tô tư bản chủ nghĩa là một phần của lợi nhuận bình quân mà nhà tư bản kinh doanh nông nghiệp nộp cho địa chủ.
+
+Nguồn ảnh: trang PDF 70.
+
+Câu 12: Việc thực hiện nhất quán chính sách kinh tế nhiều thành phần có tác động như thế nào đến sự phát triển của kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam?
+
+Đáp án: A) Hình thành những chủ thể kinh tế độc lập, có lợi ích riêng; làm phong phú thêm đội ngũ các chủ thể kinh tế tham gia vào thị trường.
+
+Nguồn ảnh: trang PDF 70.
+
+Ghi chú: Ảnh có chấm đỏ ở cả A và B cùng dấu hỏi lớn; câu trùng ở trang 47 chọn nội dung A.
+
+Câu 13: Tìm trong số các diễn đạt sau đây, diễn đạt nào sai về tư bản cho vay?
+
+Đáp án: B) Thu nhập của tư bản cho vay phải bằng lợi nhuận bình quân.
+
+Nguồn ảnh: trang PDF 70.
+
+Câu 14: Điền vào chỗ trống: “Địa tô là phần giá trị thặng dư còn lại sau khi đã khấu trừ đi phần ... mà các nhà tư bản kinh doanh trên lĩnh vực nông nghiệp phải trả cho địa chủ”.
+
+Đáp án: Lợi nhuận bình quân.
+
+Nguồn ảnh: trang PDF 70.
+
+Ghi chú: Đáp án được viết tay bằng mực đỏ ở cuối trang.
+
+TRANG PDF 71
+
+Câu 19: Các bộ phận cơ bản của thể chế kinh tế bao gồm:
+
+Đáp án: B) Hệ thống pháp luật về kinh tế của Nhà nước và các quy tắc xã hội được Nhà nước thừa nhận; hệ thống các chủ thể thực hiện các hoạt động kinh tế; các cơ chế, phương pháp, thủ tục thực hiện các quy định và vận hành nền kinh tế.
+
+Nguồn ảnh: trang PDF 71.
+
+Câu 20: Thời gian chu chuyển của tư bản bao gồm những thời gian nào?
+
+Đáp án: A) Thời gian sản xuất và thời gian lưu thông hàng hóa.
+
+Nguồn ảnh: trang PDF 71.
+
+Câu 21: Giá cả hàng hóa trên thị trường KHÔNG phụ thuộc vào yếu tố nào sau đây?
+
+Đáp án: D) Theo quyết định của Nhà nước.
+
+Nguồn ảnh: trang PDF 71.
+
+Ghi chú: Phương án A bị đánh dấu X đỏ; chấm đỏ cuối cùng ở D.
+
+Câu 22: Nước đầu tiên vận dụng cách mạng công nghiệp lần thứ tư trong “Kế hoạch hành động chiến lược công nghệ cao” là:
+
+Đáp án: B) Đức.
+
+Nguồn ảnh: trang PDF 71.
+
+Câu 23: Hãy sắp xếp sự phát triển các hình thái giá trị.
+
+Đáp án: D) Hình thái giản đơn, hình thái toàn bộ, hình thái chung, hình thái tiền tệ.
+
+Nguồn ảnh: trang PDF 71.
+
+TRANG PDF 72
+
+Câu 1: Xác định phương án đúng nhất. Thời gian chu chuyển của tư bản là gì?
+
+Đáp án: Không thấy dấu khoanh đỏ trong tài liệu.
+
+Nguồn ảnh: trang PDF 72.
+
+Ghi chú: Trang 72 không có dấu khoanh đỏ và không thấy câu trùng có cùng đầy đủ phương án.
+
+Câu 2: Chọn loại đáp án đúng nhất. Sở hữu là:
+
+Đáp án: B) Quan hệ giữa người với người trong việc chiếm hữu của cải.
+
+Nguồn ảnh: trang PDF 72.
+
+Ghi chú: Trang 72 không có dấu đỏ; đáp án được đối chiếu từ câu trùng có khoanh đỏ ở trang 2.
+
+Câu 3: Xác định câu trả lời đúng nhất: Chủ nghĩa tư bản ngày nay là:
+
+Đáp án: A) Giai đoạn hiện nay của chủ nghĩa tư bản.
+
+Nguồn ảnh: trang PDF 72.
+
+Ghi chú: Trang 72 không có dấu đỏ; đối chiếu câu trùng ở trang 56.
+
+Câu 4: Công thức lưu thông hàng hóa giản đơn là công thức nào?
+
+Đáp án: Không thấy dấu khoanh đỏ trong tài liệu.
+
+Nguồn ảnh: trang PDF 72.
+
+Ghi chú: Trang 72 không có dấu khoanh đỏ.
+
+Câu 5: Vai trò của công nghiệp hóa, hiện đại hóa đối với Việt Nam là:
+
+Đáp án: B) Góp phần hoàn thiện quan hệ sản xuất.
+
+Nguồn ảnh: trang PDF 72.
+
+Ghi chú: Trang 72 không có dấu đỏ; đối chiếu câu trùng ở trang 36/56.
+
+Câu 6: Chọn phương án đúng nhất phản ánh tương quan giữa giá cả ruộng đất với mức địa tô hằng năm và tỷ suất lợi tức tiền gửi ngân hàng.
+
+Đáp án: A) Giá cả ruộng đất tỷ lệ thuận với mức địa tô hằng năm và tỷ lệ nghịch với tỷ suất lợi tức tiền gửi ngân hàng.
+
+Nguồn ảnh: trang PDF 72.
+
+Ghi chú: Trang 72 không có dấu đỏ; đối chiếu câu trùng ở trang 62.
+
+TRANG PDF 73
+
+Câu 7: Điền vào chỗ trống: “... là lao động của người sản xuất hàng hóa không kể đến hình thức cụ thể của nó, đó là sự hao phí sức lao động nói chung của người sản xuất hàng hóa về cơ bắp, thần kinh, trí óc”.
+
+Đáp án: A) Lao động trừu tượng.
+
+Nguồn ảnh: trang PDF 73.
+
+Ghi chú: Trang 73 không có dấu đỏ; đối chiếu câu trùng ở trang 54.
+
+Câu 8: Trong giai đoạn chủ nghĩa tư bản độc quyền, quy luật giá trị biểu hiện thành quy luật nào?
+
+Đáp án: B) Quy luật giá cả độc quyền.
+
+Nguồn ảnh: trang PDF 73.
+
+Ghi chú: Trang 73 không có dấu đỏ; đối chiếu câu trùng ở trang 53.
+
+Câu 9: Địa tô chênh lệch II là:
+
+Đáp án: Không thấy dấu khoanh đỏ trong tài liệu.
+
+Nguồn ảnh: trang PDF 73.
+
+Ghi chú: Trang 73 không có dấu khoanh đỏ và không thấy câu trùng có cùng câu hỏi được đánh dấu rõ.
+
+Câu 10: Chủ nghĩa tư bản độc quyền ra đời là do:
+
+Đáp án: D) Các phương án trên đều đúng.
